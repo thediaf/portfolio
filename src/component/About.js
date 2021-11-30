@@ -4,7 +4,7 @@ import TabsRender from "./Tabs";
 const About = () => {
     return (
         <section className="">
-            <div className="title text-right text-3xl">
+            <div className="title mr-4 text-3xl">
                 about
             </div>
             <div class="py-5 md:py-12 px-10 grid grid-flow-row grid-cols-3 gap-4">
