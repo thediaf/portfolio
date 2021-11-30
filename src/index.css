@@ -42,3 +42,25 @@ code {
     width: 100px;
   }
 }
+
+.detail{
+  padding: 0px;
+  margin: 0px;
+  list-style: outside none none;
+  font-size: var(--fz-lg);
+}
+
+.detail li{
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 10px;
+}
+.detail li:first-child{
+  margin-top: 10px;
+}
+.detail li::before{
+content: "▹";
+position: absolute;
+left: 0px;
+color: var(--green);
+}
