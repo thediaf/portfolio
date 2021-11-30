@@ -22,6 +22,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
                     onClick={e => {
                       e.preventDefault();
                       setOpenButton(1);
+					  setOpenTab(1);
                     }}
                     data-toggle="tab"
                     href="#link1"
@@ -41,6 +42,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
                   onClick={e => {
                     e.preventDefault();
                     setOpenButton(2);
+					setOpenTab(1);
                   }}
                   data-toggle="tab"
                   href="#link2"
@@ -109,7 +111,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						<li class={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
 								(openTab === 2
 								? "border-" + tabColor
-								: " border-white")
+								: " border-gray-300")
 							}
 							onClick={e => {
 								e.preventDefault();
@@ -126,7 +128,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 				<div className="px-4 py-5 flex-auto">
 					<div className="tab-content tab-space">
 						<div className={openTab === 1 && openButton === 1 ? "block text-justify lg:ml-80" : "hidden"} id="link1">
-							<h3>Internship @ 
+							<h3 className="text-xl">Internship @ 
 								<Tooltip accronyme=' CCOS' description="Centre de Calcul Ousmane Seck of Gaston Berger University" />
 							</h3>
 							<span>November 2020 - April 2021</span>
@@ -137,37 +139,27 @@ const Tabs = ({ buttonColor, tabColor }) => {
 								<li>Website creation with CodeIgniter</li>
 							</ul>
 						</div>
-						<div className={openTab === 2 && openButton === 1 ? "block text-justify lg:ml-20" : "hidden"} id="link1">
-							<h3>Hackathon DevFest @ <span className="text-gray-700">Google Developer Group</span></h3>
+						<div className={openTab === 2 && openButton === 1 ? "block text-justify lg:ml-28" : "hidden"} id="link1">
+							<h3 className="text-xl">Hackathon DevFest @ <span className="text-gray-700">Google Developer Group</span></h3>
 							<span>November 2020 - April 2021</span>
 							<p className="mt-2">Creation of a web application for school management</p>
 						</div>
 						<div className={openTab === 3 && openButton === 1 ? "block text-justify lg:ml-64" : "hidden"} id="link1">
-							<h3>72h d'hackathon @ 
+							<h3 className="text-xl">72h d'hackathon @ 
 								<Tooltip accronyme=' CI UGB' description="Club Informatique of Gaston Berger University" />
 							</h3>
 							<span>November 2020 - April 2021</span>
 							<p className="mt-2">Prototyping and creation of an application of classroom schedule management</p>
 						</div>
-						<div className={openTab === 1 && openButton === 2 ? "block text-justify" : "hidden"} id="link1">
-							<p>
-								plug-and-play networks. Dynamically procrastinate B2C users
-								Collaboratively administrate empowered markets via
-								after installed base benefits.
-								<br />
-								<br /> Dramatically visualize customer directed convergence
-								without revolutionary ROI.
-							</p>
+						<div className={openTab === 1 && openButton === 2 ? "block text-justify lg:ml-32" : "hidden"} id="link1">
+							<h3 className="text-xl">Gaston Berger University @ <span className="text-gray-700">Saint-Louis</span></h3>
+							<span>2017 - 2020</span>
+							<p className="mt-2">Professional license in Computer Engineering</p>
 						</div>
-						<div className={openTab === 2 && openButton === 2 ? "block" : "hidden"} id="link1">
-							<p>
-								Dramatically visualize customer directed convergence
-								plug-and-play networks. Dynamically procrastinate B2C users
-								after installed base benefits.
-								Collaboratively administrate empowered markets via
-								<br />
-								without revolutionary ROI.
-							</p>
+						<div className={openTab === 2 && openButton === 2 ? "block text-justify lg:ml-36" : "hidden"} id="link1">
+							<h3 className="text-xl">Dioukhamadya High School @ <span className="text-gray-700">Nouakchott</span></h3>
+							<span>2016 - 2017</span>
+							<p className="mt-2">Baccalaureate Mathematics Serie</p>
 						</div>						
 					</div>
 				</div>
@@ -182,7 +174,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 export default function TabsRender() {
   return (
     <>
-       <Tabs buttonColor="black" tabColor="black" />;
+       <Tabs buttonColor="black" tabColor="black" />
     </>
   );
 }
