@@ -10,7 +10,7 @@ const NavBar = () => {
             <div className="container px-6 py-3 mx-auto 
                             md:flex md:justify-between md:items-center"
             >
-                <div class="flex items-center justify-between">
+                <div className="flex items-center justify-between">
                     <div>
                         <a href="" className="text-xl font-bold text-gray-900 dark:text-white hover:text-gray-700 
                                             md:text-2xl dark:hover:text-gray-300"
@@ -18,9 +18,9 @@ const NavBar = () => {
                             Thediaf
                         </a>
                     </div>
-                    <div class="flex md:hidden">
+                    <div className="flex md:hidden">
                         <button type="button" className="text-gray-500 dark:text-gray-200" aria-label="toggle menu" onClick={handleClick}>
-                        <svg viewBox="0 0 24 24" class="w-6 h-6 fill-current">
+                        <svg viewBox="0 0 24 24" className="w-6 h-6 fill-current">
                             <path
                             fill-rule="evenodd"
                             d="M4 5h16a1 1 0 0 1 0 2H4a1 1 0 1 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2zm0 6h16a1 1 0 0 1 0 2H4a1 1 0 0 1 0-2z"
@@ -34,7 +34,7 @@ const NavBar = () => {
                 <div className={click ? 'items-center md:flex hidden' : 'items-center md:flex block transition ease-linear'}>
                     <div className="flex flex-col md:flex-row md:mx-6">
                     <a
-                        class="
+                        className="
                             my-1
                             text-gray-900
                             dark:text-gray-200
@@ -50,7 +50,7 @@ const NavBar = () => {
                         home
                     </a>
                     <a
-                        class="
+                        className="
                             my-1
                             text-gray-900
                             dark:text-gray-200
@@ -65,7 +65,7 @@ const NavBar = () => {
                         about
                     </a>
                     <a
-                        class="
+                        className="
                             my-1
                             text-gray-900
                             dark:text-gray-200
@@ -80,7 +80,7 @@ const NavBar = () => {
                         skill
                     </a>
                     <a
-                        class="
+                        className="
                             my-1
                             text-gray-900
                             dark:text-gray-200
@@ -95,7 +95,7 @@ const NavBar = () => {
                         work
                     </a>
                     <a
-                        class="
+                        className="
                             my-1
                             text-gray-900
                             dark:text-gray-200

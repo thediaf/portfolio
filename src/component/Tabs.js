@@ -10,7 +10,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
     <>
       <div className="flex flex-wrap">
         <div className="w-screen">
-        	<ul class="flex justify-center space-x-2">
+        	<ul className="flex justify-center space-x-2">
                 <li>
                   <a
                     className={
@@ -53,10 +53,10 @@ const Tabs = ({ buttonColor, tabColor }) => {
               </li>
                 
             </ul>
-			<div class="flex justify-center items-center">
+			<div className="flex justify-center items-center">
 				<div className={openButton === 1 ? "block" : "hidden"}>
-					<ul class="flex justify-center items-center my-4">
-						<li class={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+					<ul className="flex justify-center items-center my-4">
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
 								(openTab === 1
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -68,7 +68,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						>
 							Stage
 						</li>
-						<li class={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
 								(openTab === 2
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -80,7 +80,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						>
 							Hackathon
 						</li>
-						<li class={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
 								(openTab === 3
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -95,8 +95,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
 					</ul>
 				</div>
 				<div className={openButton === 2 ? "block" : "hidden"}>
-					<ul class="flex justify-center items-center my-4">
-						<li class={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+					<ul className="flex justify-center items-center my-4">
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
 								(openTab === 1
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -108,7 +108,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						>
 							License
 						</li>
-						<li class={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
 								(openTab === 2
 								? "border-" + tabColor
 								: " border-gray-300")

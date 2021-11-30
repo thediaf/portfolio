@@ -7,7 +7,7 @@ const About = () => {
             <div className="title mr-4 text-3xl">
                 about
             </div>
-            <div class="py-5 md:py-12 px-10 grid grid-flow-row grid-cols-3 gap-4">
+            <div className="py-5 md:py-12 px-10 grid grid-flow-row grid-cols-3 gap-4">
                 <div className="picture">
                     <img src="images/avatar.png" alt="my picture" className="shadow-xl w-56" />
                 </div>
