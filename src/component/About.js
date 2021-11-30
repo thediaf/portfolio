@@ -4,15 +4,15 @@ import TabsRender from "./Tabs";
 const About = () => {
     return (
         <section className="">
-            <div className="title mr-4 text-3xl">
+            <div className="title pr-10 text-3xl">
                 about
             </div>
-            <div className="py-5 md:py-12 px-10 grid grid-flow-row grid-cols-3 gap-4">
-                <div className="picture">
-                    <img src="images/avatar.png" alt="my picture" className="shadow-xl w-56" />
+            <div className="mb-3 py-5 px-10 text-justify md:flex gap-4">
+                <div className="flex-none mr-7">
+                    <img src="images/avatar.png" alt="my picture" className="shadow-lg w-56" />
                 </div>
-                <div className="col-span-2">
-                    <p className="text-2xl  rotate-180 before:bg-blue-500"
+                <div className="flex-none md:flex-1">
+                    <p className="text-2xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"
                     > 
                         Hello! I'm Diafra Soumare, a passionate software engineer. 
                         I develop web application and design database. 

@@ -23,7 +23,7 @@ code {
   align-items: center;
   text-align: right;
   position: relative;
-  margin: 30px 0px 30px;
+  margin: 20px 0px 20px;
   width: 100%;
   font-size: clamp(26px,5vw,32px);
   white-space: nowrap;
