@@ -1,4 +1,5 @@
 import React from "react";
+import TabsRender from "./Tabs";
 
 const About = () => {
     return (
@@ -22,6 +23,7 @@ const About = () => {
                     </p>
                 </div>
             </div>
+            <TabsRender />
             
         </section>
     )
