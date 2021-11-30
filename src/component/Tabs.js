@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import Tooltip from "./Tooltips";
 
 const Tabs = ({ buttonColor, tabColor }) => {
 	
 	const [openButton, setOpenButton] = useState(1);
   	const [openTab, setOpenTab] = useState(1);
-  
+
   return (
     <>
       <div className="flex flex-wrap">
@@ -125,7 +126,9 @@ const Tabs = ({ buttonColor, tabColor }) => {
 				<div className="px-4 py-5 flex-auto">
 					<div className="tab-content tab-space">
 						<div className={openTab === 1 && openButton === 1 ? "block text-justify lg:ml-80" : "hidden"} id="link1">
-							<h3>Internship @ <span className="text-gray-700">CCOS</span></h3>
+							<h3>Internship @ 
+								<Tooltip accronyme=' CCOS' description="Centre de Calcul Ousmane Seck of Gaston Berger University" />
+							</h3>
 							<span>November 2020 - April 2021</span>
 							<p className="mt-2">Design and realization of opportunities platform  for Gaston Berger University students .</p>
 							<ul className="detail">
@@ -140,7 +143,9 @@ const Tabs = ({ buttonColor, tabColor }) => {
 							<p className="mt-2">Creation of a web application for school management</p>
 						</div>
 						<div className={openTab === 3 && openButton === 1 ? "block text-justify lg:ml-64" : "hidden"} id="link1">
-							<h3>72h d'hackathon @ <span className="text-gray-700">CI UGB</span></h3>
+							<h3>72h d'hackathon @ 
+								<Tooltip accronyme=' CI UGB' description="Club Informatique of Gaston Berger University" />
+							</h3>
 							<span>November 2020 - April 2021</span>
 							<p className="mt-2">Prototyping and creation of an application of classroom schedule management</p>
 						</div>
