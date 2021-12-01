@@ -4,15 +4,17 @@ import NavBar from './component/Navbar';
 import Home from './component/Home';
 import About from './component/About';
 import Skill from './component/Skill';
+import Works from './component/works';
 
 function App() {
   return (
     <div className="App">
       <NavBar />
       <div className="container mx-auto">
-      <Home />
-      <About />
-      <Skill />
+        <Home />
+        <About />
+        <Skill />
+        <Works />  
       </div>
     </div>
   );

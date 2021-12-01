@@ -14,7 +14,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
                 <li>
                   <a
                     className={
-                      "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                      "transition-transform duration-500 transform hover:shadow-md hover:scale-125 text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                       (openButton === 1
                         ? "text-white bg-" + buttonColor
                         : "text-" + buttonColor + " bg-white")
@@ -34,7 +34,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
                 <li> 
                   <a
                   className={
-                    "text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
+                    "transition-transform duration-500 transform hover:shadow-md hover:scale-125 text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                     (openButton === 2
                       ? "text-white bg-" + buttonColor
                       : "text-" + buttonColor + " bg-white")
