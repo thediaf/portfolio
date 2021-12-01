@@ -3,11 +3,11 @@ import TabsRender from "./Tabs";
 
 const About = () => {
     return (
-        <section className="">
-            <div className="title pr-10 text-3xl">
+        <section className="about">
+            <div className="title right-title pr-10 text-3xl">
                 about
             </div>
-            <div className="mb-3 py-5 px-10 text-justify md:flex gap-4">
+            <div className="mb-3 pb-5 px-10 text-justify md:flex gap-4">
                 <div className="flex-none mr-7">
                     <img src="images/avatar.png" alt="my picture" className="shadow-lg w-56" />
                 </div>

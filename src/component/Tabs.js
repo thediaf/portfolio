@@ -124,8 +124,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
 					</ul>
 				</div>
 			</div>
-			<div className="relative flex flex-col min-w-0 break-words bg-white w-auto items-center mb-6 ">
-				<div className="px-4 py-5 flex-auto">
+			<div className="relative flex flex-col min-w-0 break-words bg-white w-auto items-center">
+				<div className="px-4 flex-auto">
 					<div className="tab-content tab-space">
 						<div className={openTab === 1 && openButton === 1 ? "block text-justify lg:ml-80" : "hidden"} id="link1">
 							<h3 className="text-xl">Internship @ 
