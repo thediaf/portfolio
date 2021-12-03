@@ -12,7 +12,7 @@ const About = () => {
                     <img src="images/avatar.png" alt="my picture" className="shadow-lg w-56" />
                 </div>
                 <div className="flex-none md:flex-1">
-                    <p className="text-2xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"
+                    <p className="text-xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"
                     > 
                         Hello! I'm Diafra Soumare, a passionate software engineer. 
                         I develop web application and design database. 
