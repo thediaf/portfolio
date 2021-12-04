@@ -8,8 +8,8 @@ const About = () => {
                 about
             </div>
             <div className="mb-3 pb-5 px-10 text-justify md:flex gap-4">
-                <div className="flex-none mr-7">
-                    <img src="images/avatar.png" alt="my picture" className="shadow-lg w-56" />
+                <div className="flex-none md:mr-7">
+                    <img src="images/avatar.png" alt="my picture" className="shadow-lg w-56 mx-auto" />
                 </div>
                 <div className="flex-none md:flex-1">
                     <p className="text-xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"
