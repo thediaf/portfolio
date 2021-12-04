@@ -6,11 +6,11 @@ const NavBar = () => {
     const handleClick = () => setClick(!click);
 
     return (
-        <nav className="bg-white shadow-auto dark:bg-gray-800">
-            <div className="container px-6 py-3 mx-auto 
-                            md:flex md:justify-between md:items-center"
+        <nav className="bg-white shadow-auto flex dark:bg-gray-800">
+            <div className="container px-6 py-3 mx-auto h-24
+                            flex md:justify-between md:items-center"
             >
-                <div className="flex items-center justify-between">
+                <div className="w-screen flex items-center justify-between">
                     <div>
                         <a href="" className="text-xl font-bold text-gray-900 dark:text-white hover:text-gray-700 
                                             md:text-2xl dark:hover:text-gray-300"
@@ -31,7 +31,7 @@ const NavBar = () => {
       
                 </div>
             
-                <div className={click ? 'items-center md:flex hidden' : 'items-center md:flex block transition ease-linear'}>
+                <div className={click ? 'items-center flex-none md:flex hidden' : 'items-center md:flex block transition ease-linear'}>
                     <div className="flex flex-col md:flex-row md:mx-6">
                     <a
                         className="
