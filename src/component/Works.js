@@ -11,8 +11,8 @@ const Works = () => {
                 <div className="md:flex md:mr-5">
                     <div className="flex-1 projecte h-64 m-2">
                         <img src="images/PO-UGB.png" alt="my picture" className="flex-1 transform h-64 z-auto hover:opacity-30" />
-                        <div class="projecte-overlay"></div>
-                        <div class="projecte-content px-7">
+                        <div className="projecte-overlay"></div>
+                        <div className="projecte-content px-7">
                             <div>
                                 <h1 className="text-2xl">Plateforme d'opportinute</h1>
                             </div>
@@ -27,8 +27,8 @@ const Works = () => {
                     </div>
                     <div className="flex-1 projecte h-64 m-2">
                         <img src="images/PO-UGB.png" alt="my picture" className="flex-1 transform h-64 z-auto hover:opacity-30" />
-                        <div class="projecte-overlay"></div>
-                        <div class="projecte-content px-7">
+                        <div className="projecte-overlay"></div>
+                        <div className="projecte-content px-7">
                             <div>
                                 <h1 className="text-2xl">Plateforme d'opportinute</h1>
                             </div>
@@ -43,8 +43,8 @@ const Works = () => {
                     </div>
                     <div className="flex-1 projecte h-64 m-2">
                         <img src="images/PO-UGB.png" alt="my picture" className="flex-1 transform h-64 z-auto hover:opacity-30" />
-                        <div class="projecte-overlay"></div>
-                        <div class="projecte-content px-7">
+                        <div className="projecte-overlay"></div>
+                        <div className="projecte-content px-7">
                             <div>
                                 <h1 className="text-2xl">Plateforme d'opportinute</h1>
                             </div>
@@ -61,8 +61,8 @@ const Works = () => {
                 <div className="md:flex md:mr-5">
                     <div className="flex-1 projecte h-64 m-2">
                         <img src="images/PO-UGB.png" alt="my picture" className="flex-1 transform h-64 z-auto hover:opacity-30" />
-                        <div class="projecte-overlay"></div>
-                        <div class="projecte-content px-7">
+                        <div className="projecte-overlay"></div>
+                        <div className="projecte-content px-7">
                             <div>
                                 <h1 className="text-2xl">Plateforme d'opportinute</h1>
                             </div>
@@ -77,8 +77,8 @@ const Works = () => {
                     </div>
                     <div className="flex-1 projecte h-64 m-2">
                         <img src="images/PO-UGB.png" alt="my picture" className="flex-1 transform h-64 z-auto hover:opacity-30" />
-                        <div class="projecte-overlay"></div>
-                        <div class="projecte-content px-7">
+                        <div className="projecte-overlay"></div>
+                        <div className="projecte-content px-7">
                             <div>
                                 <h1 className="text-2xl">Plateforme d'opportinute</h1>
                             </div>
@@ -93,8 +93,8 @@ const Works = () => {
                     </div>
                     <div className="flex-1 projecte h-64 m-2">
                         <img src="images/PO-UGB.png" alt="my picture" className="flex-1 transform h-64 z-auto hover:opacity-30" />
-                        <div class="projecte-overlay"></div>
-                        <div class="projecte-content px-7">
+                        <div className="projecte-overlay"></div>
+                        <div className="projecte-content px-7">
                             <div>
                                 <h1 className="text-2xl">Plateforme d'opportinute</h1>
                             </div>

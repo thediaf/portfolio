@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
     return (
-            <div class="w-full">
-                <hr class="border-gray-300"/>
-                <div class="w-full my-5 text-gray-800">
+            <div className="w-full">
+                <hr className="border-gray-300"/>
+                <div className="w-full my-5 text-gray-800">
                     <p>Designed and build with passion by Me</p>
                 </div>
             </div>
