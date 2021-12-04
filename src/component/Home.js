@@ -14,7 +14,7 @@ const Home = () => {
                 </p>
             </div>
             <div className="picture">
-                <img src="images/avatar.png" alt="my picture" className="shadow-xl w-56" />
+                <img src="images/avatar.png" alt="my picture" className="shadow-xl w-64" />
             </div>
         </div>
 
