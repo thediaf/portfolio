@@ -4,10 +4,10 @@ import './Home.css'
 
 const Home = () => {
     return (
-        <div className="py-5 md:py-10 px-10 grid grid-cols-3 gap-4">
+        <div className="py-5 md:py-10 my-16 md:my-24 px-10 grid grid-cols-3 gap-4">
             <div className="col-span-2">
-                <h1 className="text-4xl">Hi! I'm Diafra Soumare</h1>
-                <p className="text-2xl animate-pulse rotate-180 before:bg-blue-500"
+                <h1 className="text-5xl md:text-7xl">Hi! I'm Diafra Soumare</h1>
+                <p className="text-xl md:text-4xl mt-5 animate-pulse rotate-180 before:bg-blue-500"
                 >
                     I'm a Full-stack web developer,<br/>
                     a freelancer and a problem solver
