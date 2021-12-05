@@ -1,4 +1,6 @@
 import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
+
 
 const NavBar = () => {
 
@@ -12,11 +14,11 @@ const NavBar = () => {
             >
                 <div className="w-screen flex items-center justify-between">
                     <div>
-                        <a href="" className="text-xl font-bold text-gray-900 dark:text-white hover:text-gray-700 
+                        <Link to="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-gray-700 
                                             md:text-2xl dark:hover:text-gray-300"
                         >
                             Thediaf
-                        </a>
+                        </Link>
                     </div>
                     <div className="flex md:hidden">
                         <button type="button" className="text-gray-500 dark:text-gray-200" aria-label="toggle menu" onClick={handleClick}>
@@ -33,7 +35,7 @@ const NavBar = () => {
             
                 <div className={click ? 'items-center flex-none md:flex hidden' : 'items-center md:flex block transition ease-linear'}>
                     <div className="flex flex-col md:flex-row md:mx-6">
-                    <a
+                    <Link
                         className="
                             my-1
                             text-gray-900
@@ -45,11 +47,11 @@ const NavBar = () => {
                             font-semibold
                             transition duration-700 delay-300 ease-linear
                         "
-                        href="#"
+                        to="/"
                     >
                         home
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="
                             my-1
                             text-gray-900
@@ -60,11 +62,11 @@ const NavBar = () => {
                             md:border-b-2
                             transition duration-700 delay-300 ease-linear
                         "
-                        href="#"
+                        to="#about"
                     >
                         about
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="
                             my-1
                             text-gray-900
@@ -75,11 +77,11 @@ const NavBar = () => {
                             md:border-b-2
                             transition duration-700 delay-300 ease-linear
                         "
-                        href="#"
+                        to="/#"
                     >
                         skill
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="
                             my-1
                             text-gray-900
@@ -90,11 +92,11 @@ const NavBar = () => {
                             md:border-b-2
                             transition duration-700 delay-300 ease-linear
                         "
-                        href="#"
+                        to="/#"
                     >
                         work
-                    </a>
-                    <a
+                    </Link>
+                    <Link
                         className="
                             my-1
                             text-gray-900
@@ -105,10 +107,10 @@ const NavBar = () => {
                             md:border-b-2
                             transition duration-700 delay-300 ease-linear
                         "
-                        href="#"
+                        to="/#"
                     >
                         contact
-                    </a>
+                    </Link>
 
                     </div>
                 </div>

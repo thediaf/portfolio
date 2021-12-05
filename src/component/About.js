@@ -3,7 +3,7 @@ import TabsRender from "./Tabs";
 
 const About = () => {
     return (
-        <section className="about md:min-h-screen">
+        <section className="about md:min-h-screen" id="about">
             <div className="title right-title pr-10 text-3xl">
                 about
             </div>

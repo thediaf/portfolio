@@ -7,19 +7,26 @@ import Skill from './component/Skill';
 import Works from './component/Works';
 import Footer from './component/Footer';
 import Contact from './component/Contact';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="App">
       
       <div className="container mx-auto">
-        <NavBar />
-        <Home />
-        <About />
-        <Skill />
-        <Works /> 
-        <Contact /> 
-        <Footer />
+        <BrowserRouter>
+          <NavBar />
+            <Routes>
+              <Route path="/" element={<Home />}>
+                <Route path="#about" element={<About />}/>
+                <Route path="#skill" element={<Skill />} />
+                <Route path="#works" element={<Works />} />
+                <Route path="#contact" element={<Contact />} />
+              </Route>
+            </Routes>
+          <Footer />
+          
+        </BrowserRouter>
       </div>
     </div>
   );
