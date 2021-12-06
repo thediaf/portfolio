@@ -1,9 +1,11 @@
 import React from 'react';
 import { Element } from "react-scroll";
+import Reveal from 'react-reveal/Reveal';
 
 const Skill = () =>{
     return (
         <Element className="skill md:min-h-screen" id="skills" name="skills">
+            <Reveal effect="fadeInUp">
             <div className="title left-title pl-10 text-3xl">
                 skill
             </div>
@@ -95,7 +97,7 @@ const Skill = () =>{
                     </div>
                 </div>
             </div>
-            
+            </Reveal>
         </Element>
     )
 }
