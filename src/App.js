@@ -7,7 +7,7 @@ import Skill from './component/Skill';
 import Works from './component/Works';
 import Footer from './component/Footer';
 import Contact from './component/Contact';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
   return (
@@ -16,14 +16,11 @@ function App() {
       <div className="container mx-auto">
         <BrowserRouter>
           <NavBar />
-            <Routes>
-              <Route path="/" element={<Home />}>
-                <Route path="#about" element={<About />}/>
-                <Route path="#skill" element={<Skill />} />
-                <Route path="#works" element={<Works />} />
-                <Route path="#contact" element={<Contact />} />
-              </Route>
-            </Routes>
+          <Home />
+          <About />
+          <Skill />
+          <Works />
+          <Contact />
           <Footer />
           
         </BrowserRouter>
