@@ -1,8 +1,9 @@
 import React from 'react';
+import { Element } from "react-scroll";
 
 const Skill = () =>{
     return (
-        <section className="skill md:min-h-screen">
+        <Element className="skill md:min-h-screen" id="skills" name="skills">
             <div className="title left-title pl-10 text-3xl">
                 skill
             </div>
@@ -95,7 +96,7 @@ const Skill = () =>{
                 </div>
             </div>
             
-        </section>
+        </Element>
     )
 }
 

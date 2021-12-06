@@ -1,9 +1,10 @@
 import React from "react";
 import './Works.css';
+import { Element } from "react-scroll";
 
 const Works = () => {
     return (
-        <section className="works md:min-h-screen">
+        <Element className="works md:min-h-screen" id="works" name="works">
             <div className="title right-title pr-10 text-3xl">
                my works
             </div>
@@ -109,7 +110,7 @@ const Works = () => {
                     </div>
                 </div>
             </div>
-        </section>
+        </Element>
     )
 }
 

@@ -1,9 +1,10 @@
 import React from "react";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF,FaTwitter,FaGithub, FaLinkedinIn } from 'react-icons/fa';
+import { Element } from "react-scroll";
 
 const Contact = () => {
     return (
-        <section className="contact">
+        <Element className="contact" id="contact" name="contact">
             <div className="title left-title pl-10 text-3xl">
                 contact me
             </div>
@@ -50,7 +51,7 @@ const Contact = () => {
                     </span>
                 </div>
             </div>
-        </section>
+        </Element>
     )
 }
 

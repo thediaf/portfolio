@@ -1,9 +1,10 @@
 import React from "react";
 import TabsRender from "./Tabs";
+import { Element } from "react-scroll";
 
 const About = () => {
     return (
-        <section className="about md:min-h-screen" id="about">
+        <Element className="about md:min-h-screen" id="about" name="about">
             <div className="title right-title pr-10 text-3xl">
                 about
             </div>
@@ -25,7 +26,7 @@ const About = () => {
             </div>
             <TabsRender />
             
-        </section>
+        </Element>
     )
 }
 
