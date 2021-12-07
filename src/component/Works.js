@@ -1,11 +1,9 @@
 import React from "react";
 import './Works.css';
 import { Element } from "react-scroll";
-import Reveal from 'react-reveal/Reveal';
 
 const Works = () => {
     return (
-        <Reveal effect="fadeInUp">
         <Element className="works md:min-h-screen" id="works" name="works">
             <div className="title right-title pr-10 text-3xl">
                my works
@@ -113,7 +111,6 @@ const Works = () => {
                 </div>
             </div>
         </Element>
-        </Reveal>
     )
 }
 

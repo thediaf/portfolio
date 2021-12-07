@@ -1,12 +1,10 @@
 import React from "react";
 import TabsRender from "./Tabs";
 import { Element } from "react-scroll";
-import Reveal from 'react-reveal/Reveal';
 
 const About = () => {
     return (
         <Element className="about md:min-h-screen" id="about" name="about">
-            <Reveal effect="fadeInUp">
                 <div className="title right-title pr-10 text-3xl">
                     about
                 </div>
@@ -27,7 +25,6 @@ const About = () => {
                     </div>
                 </div>
                 <TabsRender />
-            </Reveal>
         </Element>
     )
 }

@@ -1,12 +1,10 @@
 import React from "react";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF,FaTwitter,FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { Element } from "react-scroll";
-import Reveal from 'react-reveal/Reveal';
 
 const Contact = () => {
     return (
         <Element className="contact" id="contact" name="contact">
-            <Reveal effect="fadeInUp">
             <div className="title left-title pl-10 text-3xl">
                 contact me
             </div>
@@ -53,7 +51,6 @@ const Contact = () => {
                     </span>
                 </div>
             </div>
-            </Reveal>
         </Element>
     )
 }
