@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="picture">
-                <img src="images/avatar.png" alt="my picture" className="shadow-xl w-64" />
+                <img src="images/avatar.png" alt="my picture" className="shadow-xl w-64 animate-wiggle" />
             </div>
         </div>
 

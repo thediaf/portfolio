@@ -1,9 +1,6 @@
 import React, {useState} from 'react';
-import { NavLink } from 'react-router-dom';
 import { Link } from 'react-scroll';
-
 import { FaBars, FaTimes } from 'react-icons/fa'
-import About from './About';
 
 const NavBar = () => {
 
