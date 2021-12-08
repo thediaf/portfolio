@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 const Skill = () =>{
     return (
         <div className=" flex justify-center">
-        <Element className="skill md:min-h-screen" id="skills" name="skills">
+        <Element className="skill lg:min-h-screen" id="skills" name="skills">
             <div className="title left-title pl-10 text-3xl">
                 skill
             </div>
