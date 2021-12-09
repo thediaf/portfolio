@@ -9,7 +9,7 @@ const Contact = () => {
                 contact me
             </div>
 
-            <div className="my-12 md:my-20 pb-5 px-10 gap-4">
+            <div className="my-12 md:my-20 pb-5 px-7 gap-4">
                 <p className="md:mx-40 text-center">
                     I am interested in working with any company that thinks my skill will be 
                     helpful for them. If you are looking for someone like me, please let me know. 

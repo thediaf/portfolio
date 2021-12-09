@@ -8,7 +8,7 @@ const About = () => {
                 <div className="title right-title pr-10 text-3xl">
                     about
                 </div>
-                <div className="mb-3 md:mr-5 pb-5 px-10 text-justify md:flex gap-4">
+                <div className="mb-3 md:mr-5 pb-5 px-7 text-justify md:flex gap-4">
                     <div className="flex-none md:mr-7">
                         <img src="images/avatar.png" alt="my picture" className="shadow-lg w-56 mx-auto" />
                     </div>

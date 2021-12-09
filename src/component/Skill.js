@@ -8,7 +8,7 @@ const Skill = () =>{
             <div className="title left-title pl-10 text-3xl">
                 skill
             </div>
-            <div className="mb-3 md:ml-5 pb-5 px-10 text-justify gap-4">
+            <div className="mb-3 md:ml-5 pb-5 px-7 text-justify gap-4">
                 <p>Hello! I'm Diafra Soumare, a passionate software engineer. I develop web application and design database.</p>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Languages</span>
