@@ -15,13 +15,14 @@ function App() {
       <div className="container mx-auto">
         <BrowserRouter>
           <NavBar />
-          <Home />
-          <About />
-          <Skill />
-          <Works />
-          <Contact />
-          <Footer />
-          
+          <main>
+            <Home />
+            <About />
+            <Skill />
+            <Works />
+            <Contact />
+            <Footer />
+          </main>
         </BrowserRouter>
       </div>
     </div>

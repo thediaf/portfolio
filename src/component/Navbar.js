@@ -5,7 +5,10 @@ import { FaBars, FaTimes } from 'react-icons/fa'
 const NavBar = () => {
 
     const [click, setClick] = useState(false);
+
     const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+
 
     return (
         <nav className="bg-white shadow-auto flex dark:bg-gray-800">
@@ -22,18 +25,21 @@ const NavBar = () => {
                             </a>
                         </div>
                         <div className="flex md:hidden">
-                            <button type="button" className="text-gray-500 dark:text-gray-200" aria-label="toggle menu" onClick={handleClick}>
+                            <button type="button" 
+                                className="text-gray-500 dark:text-gray-200 transition delay-150 duration-500 transform scale-110" 
+                                aria-label="toggle menu" onClick={handleClick}
+                            >
                             {click ? <FaTimes /> : <FaBars />}
                             </button>
                         </div>
                     </div>
                 </div>
             
-                <div className={click ? 'items-center md:flex transform transition ease-linear duration-1000 delay-1000 block' : 'items-center flex-none md:flex hidden'}>
+                <div className={click ? 'items-center md:flex transform transition ease-linear duration-1000 scale-110 delay-1000 block' : 'items-center flex-none md:flex hidden'}>
                     <div className="flex flex-col md:flex-row md:mx-6">
                         <Link
                             className="my-3 text-gray-900 font-semibold cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"
-                             
+                            onClick={closeMobileMenu}
                             to="/"
                         >
                             home
@@ -43,6 +49,7 @@ const NavBar = () => {
                                 spy={true}
                                 smooth={true} 
                                 duration={500}
+                                onClick={closeMobileMenu}
                                 className="my-3 text-gray-900 cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"    
                         >
                             about
@@ -52,6 +59,7 @@ const NavBar = () => {
                                 spy={true}
                                 smooth={true} 
                                 duration={500}  
+                                onClick={closeMobileMenu}
                                 className="my-3 text-gray-900 cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"  
                         >
                             skills
@@ -70,6 +78,7 @@ const NavBar = () => {
                             spy={true}
                             smooth={true} 
                             duration={500}
+                            onClick={closeMobileMenu}
                             className="my-3 text-gray-900 cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"
                         >
                                 contact
