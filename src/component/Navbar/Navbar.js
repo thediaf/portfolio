@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa'
+import NavLink from './NavLink';
 
 const NavBar = () => {
 
@@ -37,54 +38,11 @@ const NavBar = () => {
             
                 <div className={click ? 'items-center md:flex transform transition ease-linear duration-1000 scale-110 delay-1000 block' : 'items-center flex-none md:flex hidden'}>
                     <div className="flex flex-col md:flex-row md:mx-6">
-                        <Link
-                            className="my-3 text-gray-900 font-semibold cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"
-                            onClick={closeMobileMenu}
-                            to="/"
-                        >
-                            home
-                        </Link>
-                        <Link
-                                to="about"
-                                spy={true}
-                                smooth={true} 
-                                duration={500}
-                                onClick={closeMobileMenu}
-                                className="my-3 text-gray-900 cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"    
-                        >
-                            about
-                        </Link>
-                        <Link
-                                to="skills"
-                                spy={true}
-                                smooth={true} 
-                                duration={500}  
-                                onClick={closeMobileMenu}
-                                className="my-3 text-gray-900 cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"  
-                        >
-                            skills
-                        </Link>
-                        <Link
-                            to="works"
-                            spy={true}
-                            smooth={true} 
-                            duration={500}
-                            className="my-3 text-gray-900 cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"    
-                        >
-                            works
-                        </Link>
-                        <Link
-                            to="contact"
-                            spy={true}
-                            smooth={true} 
-                            duration={500}
-                            onClick={closeMobileMenu}
-                            className="my-3 text-gray-900 cursor-pointer dark:text-gray-200 hover:border-gray-900 dark:hover:border-white md:mx-4 md:my-0 md:border-b-2 transition duration-300 delay-300 ease-linear"
-                        >
-                                contact
-                            
-                        </Link>
-
+                        <NavLink link="/" title="home" closeMobileMenu={closeMobileMenu} />
+                        <NavLink link="about" title="about" closeMobileMenu={closeMobileMenu} />
+                        <NavLink link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
+                        <NavLink link="works" title="works" closeMobileMenu={closeMobileMenu} />
+                        <NavLink link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
                     </div>
                 </div>
             </div>
