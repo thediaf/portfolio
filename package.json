@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thediaf.github.io/",
+  "homepage": "https://thediaf.github.io",
   "dependencies": {
     "@craco/craco": "^6.4.2",
     "@popperjs/core": "2.9.1",
@@ -19,12 +19,12 @@
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
+    "eject": "react-scripts eject",
     "start": "craco start",
     "build": "craco build",
-    "test": "craco test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "test": "craco test"
   },
   "eslintConfig": {
     "extends": [
