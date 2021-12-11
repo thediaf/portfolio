@@ -19,7 +19,7 @@ import tool4 from "../../images/git.png"
 
 const Skill = () =>{
     return (
-        <div className=" flex justify-center">
+        <div className=" flex justify-center wow slideInLeft">
         <Element className="skill" id="skills" name="skills">
             <div className="title left-title pl-10 text-3xl">
                 skill
