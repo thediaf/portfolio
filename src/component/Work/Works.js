@@ -4,7 +4,7 @@ import { FaFacebookF, FaGithub} from 'react-icons/fa';
 
 const Works = () => {
     return (
-        <Element className="works lg:min-h-screen" id="works" name="works">
+        <Element className="works" id="works" name="works">
             <div className="title right-title pr-10 text-3xl">
                my works
             </div>

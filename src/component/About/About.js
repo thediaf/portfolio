@@ -4,7 +4,7 @@ import { Element } from "react-scroll";
 
 const About = () => {
     return (
-        <Element className="about lg:min-h-screen" id="about" name="about">
+        <Element className="about" id="about" name="about">
                 <div className="title right-title pr-10 text-3xl">
                     about
                 </div>
