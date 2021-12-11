@@ -11,7 +11,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
       <div className="flex flex-wrap">
         <div className="w-screen">
         	<ul className="flex justify-center space-x-2">
-                <li>
+                
+				<li>
                   <a
                     className={
                       "transition delay-150 duration-500 transform hover:shadow-md hover:scale-125 text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +

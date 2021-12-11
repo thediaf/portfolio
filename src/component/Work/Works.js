@@ -1,6 +1,12 @@
 import React from "react";
 import { Element } from "react-scroll";
 import { FaFacebookF, FaGithub} from 'react-icons/fa';
+import projecte1 from "../../images/PO-UGB.png"
+import projecte2 from "../../images/PO-UGB.png"
+import projecte3 from "../../images/PO-UGB.png"
+import projecte4 from "../../images/PO-UGB.png"
+import projecte5 from "../../images/PO-UGB.png"
+import projecte6 from "../../images/PO-UGB.png"
 
 const Works = () => {
     return (
@@ -11,7 +17,7 @@ const Works = () => {
             <div className="mb-3 pb-5 px-7  gap-4">
                 <div className="flex justify-center items-center flex-wrap md:mr-5">
                     <figure className="md:flex lg:w-4/5 my-5 md:p-0">
-                        <img src="images/PO-UGB.png" alt="my picture" 
+                        <img src={ projecte1} alt="my picture" 
                             className="-mb-5 md:mb-0 transform h-56 lg:h-64 self-center hover:opacity-30"
                         />
                         <div className="pt-9 px-4 md:p-16 md:pl-16 md:-ml-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">
@@ -35,7 +41,7 @@ const Works = () => {
                         </div>
                     </figure>
                     <figure className="md:flex flex-row-reverse lg:w-4/5 my-5 md:p-0">
-                        <img src="images/PO-UGB.png" alt="my picture" 
+                        <img src={ projecte2 } alt="my picture" 
                             className="-mb-5 md:mb-0 transform h-56 lg:h-64 self-center hover:opacity-30"
                         />
                         <div className="pt-9 px-4 md:p-16 md:pl-16 md:-mr-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">
@@ -59,7 +65,7 @@ const Works = () => {
                         </div>
                     </figure>
                     <figure className="md:flex lg:w-4/5 my-5 md:p-0">
-                        <img src="images/PO-UGB.png" alt="my picture" 
+                        <img src={ projecte3 } alt="my picture" 
                             className="-mb-5 md:mb-0 transform h-56 lg:h-64 self-center hover:opacity-30"
                         />
                         <div className="pt-9 px-4 md:p-16 md:pl-16 md:-ml-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">
@@ -83,7 +89,7 @@ const Works = () => {
                         </div>
                     </figure>
                     <figure className="md:flex flex-row-reverse lg:w-4/5 my-5 md:p-0">
-                        <img src="images/PO-UGB.png" alt="my picture" 
+                        <img src={ projecte4 } alt="my picture" 
                             className="-mb-5 md:mb-0 transform h-56 lg:h-64 self-center hover:opacity-30"
                         />
                         <div className="pt-9 px-4 md:p-16 md:pl-16 md:-mr-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">

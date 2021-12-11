@@ -1,7 +1,7 @@
 import React from "react";
 import TabsRender from "./Tabs";
 import { Element } from "react-scroll";
-
+import picture from "../../images/avatar.png"
 const About = () => {
     return (
         <Element className="about" id="about" name="about">
@@ -10,7 +10,7 @@ const About = () => {
                 </div>
                 <div className="mb-3 md:mr-5 pb-5 px-7 text-justify md:flex gap-4">
                     <div className="flex-none md:mr-7">
-                        <img src="images/avatar.png" alt="my picture" className="shadow-lg w-56 mx-auto" />
+                        <img src={picture} alt="my picture" className="shadow-lg w-56 mx-auto" />
                     </div>
                     <div className="flex-none md:flex-1">
                         <p className="text-xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"
