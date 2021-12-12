@@ -37,7 +37,7 @@ const NavBar = () => {
                 </div>
             
                 <div className={click ? 'items-center md:flex transform transition ease-linear duration-1000 scale-110 delay-1000 block' : 'items-center flex-none md:flex hidden'}>
-                    <div className="flex flex-col md:flex-row md:mx-6">
+                    <div className="flex flex-col mb-5 text-center md:flex-row md:mx-6">
                         <NavLink link="/" title="home" closeMobileMenu={closeMobileMenu} />
                         <NavLink link="about" title="about" closeMobileMenu={closeMobileMenu} />
                         <NavLink link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
