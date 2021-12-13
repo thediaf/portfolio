@@ -1,54 +1,62 @@
 import React from 'react';
 import { Element } from "react-scroll";
-import language1 from "../../images/php.png"
-import language2 from "../../images/php.png"
-import language3 from "../../images/php.png"
-import language4 from "../../images/php.png"
-import framework1 from "../../images/php.png"
-import framework2 from "../../images/php.png"
-import framework3 from "../../images/php.png"
-import framework4 from "../../images/php.png"
-import database1 from "../../images/oracle.png"
-import database2 from "../../images/oracle.png"
-import database3 from "../../images/oracle.png"
+import php from "../../images/php.png"
+import javascript from "../../images/javascript.png"
+import sql from "../../images/sql.png"
+import html from "../../images/html.png"
+import css from "../../images/css.png"
+import symfony from "../../images/symfony.png"
+import react from "../../images/react.png"
+import codeigniter from "../../images/codeigniter.png"
+import tailwind from "../../images/tailwind.png"
+import bootstrap from "../../images/bootstrap.png"
+import jquery from "../../images/jquery.png"
+import mysql from "../../images/mysql.png"
+import oracle from "../../images/oracle.png"
+import postgre from "../../images/postgres.png"
 import database4 from "../../images/oracle.png"
-import tool1 from "../../images/git.png"
-import tool2 from "../../images/git.png"
-import tool3 from "../../images/git.png"
-import tool4 from "../../images/git.png"
+import git from "../../images/git.png"
+import npm from "../../images/npm.png"
+import composer from "../../images/composer.png"
+import linux from "../../images/linux.png"
 
 const Skill = () =>{
     return (
         <div className=" flex justify-center wow slideInLeft">
         <Element className="skill" id="skills" name="skills">
             <div className="title left-title pl-10 text-3xl">
-                skill
+                my skills
             </div>
             <div className="mb-3 md:ml-5 pb-5 px-7 text-justify gap-4">
-                <p>Hello! I'm Diafra Soumare, a passionate software engineer. I develop web application and design database.</p>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Languages</span>
                     <div className="flex flex-wrap">
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ language1 } alt="PHP" 
+                            <img src={ php } alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ language2 } alt="PHP" 
+                            <img src={ javascript } alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ language3 } alt="PHP" 
+                            <img src={ sql } alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ language4 } alt="PHP" 
+                            <img src={ css } alt="PHP" 
+                                className=" w-20 md:w-24 m-auto transition duration-500 
+                                ease-in transform " 
+                            />
+                        </div>
+                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
+                            <img src={ html } alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
@@ -59,25 +67,37 @@ const Skill = () =>{
                     <span className="text-xl font-bold">Frameworks and libraries</span>
                     <div className="flex flex-wrap my-3">
                     <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ framework1} alt="PHP" 
+                            <img src={ symfony} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ framework2} alt="PHP" 
+                            <img src={ react} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ framework3} alt="PHP" 
+                            <img src={ codeigniter} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ framework4} alt="PHP" 
+                            <img src={ tailwind} alt="PHP" 
+                                className=" w-20 md:w-24 m-auto transition duration-500 
+                                ease-in transform " 
+                            />
+                        </div>
+                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
+                            <img src={ bootstrap } alt="PHP" 
+                                className=" w-20 md:w-24 m-auto transition duration-500 
+                                ease-in transform " 
+                            />
+                        </div>
+                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
+                            <img src={ jquery } alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
@@ -88,19 +108,19 @@ const Skill = () =>{
                     <span className="text-xl font-bold">Databases</span>
                     <div className="flex flex-wrap my-3">
                     <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ database1} alt="PHP" 
+                            <img src={ mysql} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ database2} alt="PHP" 
+                            <img src={ oracle} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ database3} alt="PHP" 
+                            <img src={ postgre} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
@@ -117,25 +137,25 @@ const Skill = () =>{
                     <span className="text-xl font-bold">Tools</span>
                     <div className="flex flex-wrap my-3">
                     <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={  tool1} alt="PHP" 
+                            <img src={  git} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={  tool2} alt="PHP" 
+                            <img src={  npm} alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={  tool3} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
+                            <img src={ composer } alt="PHP" 
+                                className=" w-20  m-auto transition duration-500 
                                 ease-in transform " 
                             />
                         </div>
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={  tool4} alt="PHP" 
+                            <img src={  linux } alt="PHP" 
                                 className=" w-20 md:w-24 m-auto transition duration-500 
                                 ease-in transform " 
                             />
