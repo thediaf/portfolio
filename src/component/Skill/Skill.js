@@ -31,7 +31,7 @@ const Skill = () =>{
             </div>
             <div className="mb-3 md:ml-5 pb-5 px-7 text-justify gap-4">
             <Slide delay={100} duration={1000} direction={"left"} triggerOnce>
-            <div className="md:ml-5 mt-4">
+                <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Languages</span>
                     <div className="flex flex-wrap">
                         <SkillLogo logo={php} alt="php" />
