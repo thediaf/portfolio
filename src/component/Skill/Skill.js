@@ -16,11 +16,11 @@ import jquery from "../../images/jquery.png"
 import mysql from "../../images/mysql.png"
 import oracle from "../../images/oracle.png"
 import postgre from "../../images/postgres.png"
-import database4 from "../../images/oracle.png"
 import git from "../../images/git.png"
 import npm from "../../images/npm.png"
 import composer from "../../images/composer.png"
 import linux from "../../images/linux.png"
+import SkillLogo from './SkillLogo';
 
 const Skill = () =>{
     return (
@@ -34,135 +34,39 @@ const Skill = () =>{
             <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Languages</span>
                     <div className="flex flex-wrap">
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ php } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ javascript } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ sql } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ css } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ html } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
+                        <SkillLogo logo={php} alt="php" />
+                        <SkillLogo logo={javascript} alt="javascript" />
+                        <SkillLogo logo={sql} alt="sql" />
+                        <SkillLogo logo={css} alt="css" />
+                        <SkillLogo logo={html} alt="html" />
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Frameworks and libraries</span>
                     <div className="flex flex-wrap my-3">
-                    <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ symfony} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ react} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ codeigniter} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ tailwind} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ bootstrap } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ jquery } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
+                        <SkillLogo logo={symfony} alt="symfony" />
+                        <SkillLogo logo={react} alt="react" />
+                        <SkillLogo logo={codeigniter} alt="codeigniter" />
+                        <SkillLogo logo={jquery} alt="jquery" />
+                        <SkillLogo logo={tailwind} alt="tailwind" />
+                        <SkillLogo logo={bootstrap} alt="bootstrap" />
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Databases</span>
                     <div className="flex flex-wrap my-3">
-                    <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ mysql} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ oracle} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ postgre} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ database4} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
+                        <SkillLogo logo={mysql} alt="mysql" />
+                        <SkillLogo logo={oracle} alt="oracle" />
+                        <SkillLogo logo={postgre} alt="postgre" />
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Tools</span>
                     <div className="flex flex-wrap my-3">
-                    <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={  git} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={  npm} alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={ composer } alt="PHP" 
-                                className=" w-20  m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
-                        <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
-                            <img src={  linux } alt="PHP" 
-                                className=" w-20 md:w-24 m-auto transition duration-500 
-                                ease-in transform " 
-                            />
-                        </div>
+                        <SkillLogo logo={git} alt="git" />
+                        <SkillLogo logo={npm} alt="npm" />
+                        <SkillLogo logo={composer} alt="composer" />
+                        <SkillLogo logo={linux} alt="linux" />
                     </div>
                 </div>
             </Slide>
