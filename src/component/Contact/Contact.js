@@ -1,6 +1,7 @@
 import React from "react";
 import { FaMapMarkerAlt, FaEnvelope, FaPhone, FaFacebookF,FaTwitter,FaGithub, FaLinkedinIn } from 'react-icons/fa';
 import { Element } from "react-scroll";
+import { Slide } from "react-awesome-reveal"
 
 const Contact = () => {
     return (
@@ -9,6 +10,7 @@ const Contact = () => {
                 contact me
             </div>
 
+            <Slide delay={100} duration={500} direction={"up"} triggerOnce cascade>
             <div className="my-12 md:my-20 pb-5 px-7 gap-4">
                 <p className="md:mx-40 text-center">
                     I am interested in working with any company that thinks my skill will be 
@@ -51,6 +53,7 @@ const Contact = () => {
                     </span>
                 </div>
             </div>
+            </Slide>
         </Element>
     )
 }

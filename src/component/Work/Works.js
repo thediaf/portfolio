@@ -1,5 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
+import { Slide } from "react-awesome-reveal"
+
 import { FaLink, FaGithub} from 'react-icons/fa';
 import projecte1 from "../../images/PO-UGB.png"
 import projecte2 from "../../images/PO-UGB.png"
@@ -15,6 +17,7 @@ const Works = () => {
                my works
             </div>
             <div className="mb-3 pb-5 px-7  gap-4">
+            <Slide delay={100} duration={1000} direction={"left"} triggerOnce>
                 <div className="flex justify-center items-center flex-wrap md:mr-5">
                     <figure className="md:flex lg:w-4/5 my-5 md:p-0">
                         <img src={ projecte1} alt="my picture" 
@@ -115,6 +118,7 @@ const Works = () => {
                     </figure>
                     
                 </div>
+            </Slide>
              </div>
         </Element>
     )

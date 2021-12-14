@@ -1,5 +1,7 @@
 import React from 'react';
 import { Element } from "react-scroll";
+import { Slide } from "react-awesome-reveal"
+
 import php from "../../images/php.png"
 import javascript from "../../images/javascript.png"
 import sql from "../../images/sql.png"
@@ -24,11 +26,12 @@ const Skill = () =>{
     return (
         <div className=" flex justify-center wow slideInLeft">
         <Element className="skill" id="skills" name="skills">
-            <div className="title left-title pl-10 text-3xl">
+             <div className="title left-title pl-10 text-3xl">
                 my skills
             </div>
             <div className="mb-3 md:ml-5 pb-5 px-7 text-justify gap-4">
-                <div className="md:ml-5 mt-4">
+            <Slide delay={100} duration={1000} direction={"left"} triggerOnce>
+            <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Languages</span>
                     <div className="flex flex-wrap">
                         <div className="w-auto md:h-28 flex justify-center p-5 md:p-0 mx-3 my-5 animate-wiggle md:flex-1 bg-white shadow rounded-lg">
@@ -162,6 +165,7 @@ const Skill = () =>{
                         </div>
                     </div>
                 </div>
+            </Slide>
             </div>
         </Element>
         </div>

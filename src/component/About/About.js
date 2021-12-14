@@ -2,12 +2,14 @@ import React from "react";
 import TabsRender from "./Tabs";
 import { Element } from "react-scroll";
 import picture from "../../images/avatar.png"
+import { Slide } from "react-awesome-reveal"
 const About = () => {
     return (
         <Element className="about" id="about" name="about">
                 <div className="title right-title pr-10 text-3xl">
                     about
                 </div>
+            <Slide delay={100} duration={500} direction={"up"} triggerOnce>
                 <div className="mb-3 md:mr-5 pb-5 px-7 text-justify md:flex gap-4">
                     <div className="flex-none md:mr-7">
                         <img src={picture} alt="my picture" className="shadow-lg w-56 mx-auto" />
@@ -25,6 +27,7 @@ const About = () => {
                     </div>
                 </div>
                 <TabsRender />
+            </Slide>
         </Element>
     )
 }
