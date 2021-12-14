@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import NavLink from './NavLink';
+import { Bounce, Flip, Rotate } from "react-awesome-reveal"
 
 const NavBar = () => {
 
@@ -30,13 +31,23 @@ const NavBar = () => {
                                 className="text-gray-500 dark:text-gray-200 transition delay-150 duration-500 transform scale-110" 
                                 aria-label="toggle menu" onClick={handleClick}
                             >
-                            {click ? <FaTimes /> : <FaBars />}
+                           
+                            {
+                                click ? 
+                                    <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}>
+                                        <FaTimes className="text-2xl text-gray-900" />
+                                    </Rotate>
+                                : 
+                                     <FaBars className="text-2xl text-gray-900" />
+                            }
+                            {/* <FaTimes className="text-2xl text-gray-900 transition transform rotate-180 delay-75 duration-75 scale-110" /> */}
                             </button>
                         </div>
                     </div>
                 </div>
             
-                <div className={click ? 'items-center md:flex transform transition ease-linear duration-1000 scale-110 delay-1000 block' : 'items-center flex-none md:flex hidden'}>
+                <div className={click ? 'items-center md:flex transition-all block' : 'items-center flex-none md:flex hidden'}>
+                    <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}  triggerOnce>
                     <div className="flex flex-col mb-5 text-center md:flex-row md:mx-6">
                         <NavLink link="/" title="home" closeMobileMenu={closeMobileMenu} />
                         <NavLink link="about" title="about" closeMobileMenu={closeMobileMenu} />
@@ -44,6 +55,8 @@ const NavBar = () => {
                         <NavLink link="works" title="works" closeMobileMenu={closeMobileMenu} />
                         <NavLink link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
                     </div>
+                    </Rotate>`
+                    
                 </div>
             </div>
         </nav>
