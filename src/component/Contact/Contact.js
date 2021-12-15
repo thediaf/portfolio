@@ -39,18 +39,18 @@ const Contact = () => {
                 </div>
 
                 <div className="flex justify-center text-3xl">
-                    <span className="m-3">
+                    <a href="https://web.facebook.com/diafara.soumare.7" className="m-3">
                         <FaFacebookF />
-                    </span>
-                    <span className="m-3">
+                    </a>
+                    <a href="https://github.com/thediaf" className="m-3">
                         <FaGithub />
-                    </span>
-                    <span className="m-3">
+                    </a>
+                    <a href="https://www.linkedin.com/in/diafra-soumar%C3%A9-a53b8518a/" className="m-3">
                         <FaLinkedinIn />
-                    </span>
-                    <span className="m-3">
+                    </a>
+                    <a href="https://twitter.com/Diafra98" className="m-3">
                         <FaTwitter />
-                    </span>
+                    </a>
                 </div>
             </div>
             </Slide>
