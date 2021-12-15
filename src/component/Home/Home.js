@@ -1,7 +1,7 @@
 import React from "react";
 import './Home.css'
 import TypeWriterEffect from 'react-typewriter-effect';
-import picture from "../../images/avatar.png"
+import picture from "../../images/profile.jpg"
 
 const Home = () => {
     return (
@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="picture">
-                <img src={picture} alt="my picture" className="shadow-xl w-64 animate-wiggle" />
+                <img src={picture} alt="my picture" className="shadow-xl w-60 nimate-wiggle" />
             </div>
         </div>
 
