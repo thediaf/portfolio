@@ -2,7 +2,8 @@ import React from "react";
 import { Element } from "react-scroll";
 import { Slide } from "react-awesome-reveal"
 
-import { FaLink, FaGithub} from 'react-icons/fa';
+import { FaLink, FaGithub, FaSymfony, FaBootstrap, FaFire, FaJs} from 'react-icons/fa';
+import { GoFlame } from "react-icons/go";
 import daaddo from "../../images/daaddo.png"
 import courat from "../../images/courat.png"
 import po from "../../images/PO-UGB.png"
@@ -22,7 +23,7 @@ const Works = () => {
                         <img src={ daaddo } alt="Daaddo Vdp" 
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
-                        <div className="pt-9 px-4 md:p-16 md:pl-16 md:-ml-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">
+                        <div className="pt-9 px-4 md:p-16  md:-ml-12 text-center shadow-lg rounded-xl md:text-left ">
                             <blockquote className="text-center">
                                 <h1 className="text-2xl font-semibold">Daaddo Vdp</h1>
                                 <p className="">
@@ -30,22 +31,27 @@ const Works = () => {
                                 </p>
                             </blockquote>
                             <figcaption className="font-medium">
-                                <div className="text-gray-500 flex justify-center p-3 m-auto   ">
+                                <div className="text-gray-500 flex justify-center m-auto">
                                     <a href="">
-                                        <FaLink className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a> 
-                                    <a href="">
-                                        <FaGithub className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <FaSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
+                                    <a href="">
+                                        <FaBootstrap className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    </a>                                 
                                 </div>
                             </figcaption>
+                            <div className="text-gray-500 flex justify-center m-auto   ">
+                                <a href="https://daaddo.heroku.com" className="shadow p-2 text-xl hover:text-gray-900">
+                                    Live demo
+                                </a>
+                            </div>
                         </div>
                     </figure>
                     <figure className="md:flex flex-row-reverse lg:w-4/5 my-5 md:p-0">
                         <img src={ courat } alt="Courat" 
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
-                        <div className="pt-9 px-4 md:p-16 md:pl-16 md:-mr-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">
+                        <div className="pt-9 px-4 md:p-16  md:-mr-12 text-center shadow-lg rounded-xl md:text-left">
                             <blockquote className="text-center">
                                 <h1 className="text-2xl font-semibold">Courat</h1>
                                 <p className="">
@@ -56,22 +62,27 @@ const Works = () => {
                                 </p>
                             </blockquote>
                             <figcaption className="font-medium">
-                                <div className="text-gray-500 flex justify-center p-3 m-auto   ">
+                                <div className="text-gray-500 flex justify-center m-auto   ">
                                     <a href="">
-                                        <FaLink className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <FaSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a> 
                                     <a href="">
-                                        <FaGithub className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <FaBootstrap className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
                                 </div>
                             </figcaption>
+                            <div className="text-gray-500 flex justify-center m-auto   ">
+                                <a href="https://courat.net" className="shadow p-2 text-xl hover:text-gray-900">
+                                    Live demo
+                                </a>
+                            </div>
                         </div>
                     </figure>
                     <figure className="md:flex lg:w-4/5 my-5 md:p-0">
                         <img src={ po } alt="Opportinuties platform" 
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
-                        <div className="pt-9 px-4 md:p-16 md:pl-16 md:-ml-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">
+                        <div className="pt-9 px-4 md:p-16  md:-ml-12 text-center shadow-lg rounded-xl md:text-left">
                             <blockquote className="text-center">
                                 <h1 className="text-2xl font-semibold">Opportinuties platform</h1>
                                 <p className="">
@@ -81,22 +92,30 @@ const Works = () => {
                                 </p>
                             </blockquote>
                             <figcaption className="font-medium">
-                                <div className="text-gray-500 flex justify-center p-3 m-auto   ">
+                                <div className="text-gray-500 flex justify-center m-auto   ">
                                     <a href="">
-                                        <FaLink className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <GoFlame className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a> 
                                     <a href="">
-                                        <FaGithub className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <FaJs className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    </a> 
+                                    <a href="">
+                                        <FaBootstrap className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
                                 </div>
                             </figcaption>
+                            {/* <div className="text-gray-500 flex justify-center m-auto   ">
+                                <a href="" className="shadow p-2 text-xl hover:text-gray-900">
+                                    Live demo
+                                </a>
+                            </div> */}
                         </div>
                     </figure>
                     <figure className="md:flex flex-row-reverse lg:w-4/5 my-5 md:p-0">
                         <img src={ cridem } alt="Cridem" 
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
-                        <div className="pt-9 px-4 md:p-16 md:pl-16 md:-mr-12 text-center shadow-lg rounded-xl h-80 md:text-left space-y-4">
+                        <div className="pt-9 px-4 md:p-16  md:-mr-12 text-center shadow-lg rounded-xl md:text-left">
                             <blockquote className="text-center">
                                 <h1 className="text-2xl font-semibold">Cridem</h1>
                                 <p className="">
@@ -104,15 +123,17 @@ const Works = () => {
                                 </p>
                             </blockquote>
                             <figcaption className="font-medium">
-                                <div className="text-gray-500 flex justify-center p-3 m-auto   ">
+                                <div className="text-gray-500 flex justify-center m-auto   ">
                                     <a href="">
-                                        <FaLink className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a> 
-                                    <a href="">
-                                        <FaGithub className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <FaSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
                                 </div>
                             </figcaption>
+                            <div className="text-gray-500 flex justify-center m-auto   ">
+                                <a href="https://cridem.heroku.com" className="shadow p-2 text-xl hover:text-gray-900">
+                                    Live demo
+                                </a>
+                            </div>
                         </div>
                     </figure>
                 </Slide>
