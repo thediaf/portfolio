@@ -17,8 +17,7 @@ const Works = () => {
                my works
             </div>
             <div className="mb-3 pb-5 px-7  gap-4">
-            <Slide delay={100} duration={1000} direction={"left"} triggerOnce>
-                <div className="flex justify-center items-center flex-wrap md:mr-5">
+                <Slide className="flex justify-center items-center flex-wrap md:mr-5" delay={200} duration={700} direction={"up"} triggerOnce>
                     <figure className="md:flex lg:w-4/5 my-5 md:p-0">
                         <img src={ daaddo } alt="Daaddo Vdp" 
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
@@ -116,10 +115,8 @@ const Works = () => {
                             </figcaption>
                         </div>
                     </figure>
-                    
-                </div>
-            </Slide>
-             </div>
+                </Slide>
+            </div>
         </Element>
     )
 }
