@@ -10,7 +10,7 @@ const Contact = () => {
                 contact me
             </div>
 
-            <Slide delay={100} duration={500} direction={"up"} triggerOnce cascade>
+            <Slide delay={200} duration={700} direction={"up"} triggerOnce cascade>
             <div className="my-12 md:my-20 pb-5 px-7 gap-4">
                 <p className="md:mx-40 text-center">
                     I am interested in working with any company that thinks my skill will be 
@@ -39,18 +39,18 @@ const Contact = () => {
                 </div>
 
                 <div className="flex justify-center text-3xl">
-                    <span className="m-3">
+                    <a href="https://web.facebook.com/diafara.soumare.7" className="m-3">
                         <FaFacebookF />
-                    </span>
-                    <span className="m-3">
+                    </a>
+                    <a href="https://github.com/thediaf" className="m-3">
                         <FaGithub />
-                    </span>
-                    <span className="m-3">
+                    </a>
+                    <a href="https://www.linkedin.com/in/diafra-soumar%C3%A9-a53b8518a/" className="m-3">
                         <FaLinkedinIn />
-                    </span>
-                    <span className="m-3">
+                    </a>
+                    <a href="https://twitter.com/Diafra98" className="m-3">
                         <FaTwitter />
-                    </span>
+                    </a>
                 </div>
             </div>
             </Slide>
