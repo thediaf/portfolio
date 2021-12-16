@@ -1,15 +1,13 @@
 import React from "react";
 import { Element } from "react-scroll";
 import { Slide } from "react-awesome-reveal"
-
-import { FaLink, FaGithub, FaSymfony, FaBootstrap, FaFire, FaJs} from 'react-icons/fa';
+import { FaSymfony, FaBootstrap, FaJs} from 'react-icons/fa';
 import { GoFlame } from "react-icons/go";
+
 import daaddo from "../../images/daaddo.png"
 import courat from "../../images/courat.png"
 import po from "../../images/PO-UGB.png"
 import cridem from "../../images/cridem.png"
-import projecte5 from "../../images/PO-UGB.png"
-import projecte6 from "../../images/PO-UGB.png"
 
 const Works = () => {
     return (
@@ -55,10 +53,10 @@ const Works = () => {
                             <blockquote className="text-center">
                                 <h1 className="text-2xl font-semibold">Courat</h1>
                                 <p className="">
-                                    Contribution to the creation of the courat.net site. 
+                                    Contribution to the creation of the courat.net. 
                                     An educational platform that allows students prepare for their exams 
                                     by offering them resources such as archives and course videos online,
-                                    during the Covid-19 crisis
+                                    during the Covid-19 crisis.
                                 </p>
                             </blockquote>
                             <figcaption className="font-medium">
@@ -104,11 +102,6 @@ const Works = () => {
                                     </a>
                                 </div>
                             </figcaption>
-                            {/* <div className="text-gray-500 flex justify-center m-auto   ">
-                                <a href="" className="shadow p-2 text-xl hover:text-gray-900">
-                                    Live demo
-                                </a>
-                            </div> */}
                         </div>
                     </figure>
                     <figure className="md:flex flex-row-reverse lg:w-4/5 my-5 md:p-0">

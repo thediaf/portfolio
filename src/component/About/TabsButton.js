@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 
 const TabsButton = ({ buttonIndex, title, openButton }) => {
-	console.log(openButton, buttonIndex);
-  return (
+	return (
     <>
         <li>
             <a

@@ -1,8 +1,7 @@
 import React, {useState} from 'react';
-import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa'
 import NavLink from './NavLink';
-import { Bounce, Flip, Rotate } from "react-awesome-reveal"
+import { Rotate } from "react-awesome-reveal"
 
 const NavBar = () => {
 
@@ -31,16 +30,14 @@ const NavBar = () => {
                                 className="text-gray-500 dark:text-gray-200 transition delay-150 duration-500 transform scale-110" 
                                 aria-label="toggle menu" onClick={handleClick}
                             >
-                           
-                            {
-                                click ? 
-                                    <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}>
-                                        <FaTimes className="text-2xl text-gray-900" />
-                                    </Rotate>
-                                : 
-                                     <FaBars className="text-2xl text-gray-900" />
-                            }
-                            {/* <FaTimes className="text-2xl text-gray-900 transition transform rotate-180 delay-75 duration-75 scale-110" /> */}
+                                {
+                                    click ? 
+                                        <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}>
+                                            <FaTimes className="text-2xl text-gray-900" />
+                                        </Rotate>
+                                    : 
+                                        <FaBars className="text-2xl text-gray-900" />
+                                }
                             </button>
                         </div>
                     </div>

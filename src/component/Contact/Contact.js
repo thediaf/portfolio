@@ -13,9 +13,8 @@ const Contact = () => {
             <Slide delay={200} duration={700} direction={"up"} triggerOnce cascade>
             <div className="my-12 md:my-20 pb-5 px-7 gap-4">
                 <p className="md:mx-40 text-center">
-                    I am interested in working with any company that thinks my skill will be 
+                    I am interested in working with any company that thinks my skills will be 
                     helpful for them. Let me know if you are looking for someone like me. 
-                    Or you can just say 'hi' to me.
                 </p>
                 <div className="md:flex">
                     <div className="max-w-md md:flex-1 py-4 px-8 bg-white shadow-md rounded-lg mx-3 my-7">

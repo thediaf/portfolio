@@ -7,7 +7,7 @@ const About = () => {
     return (
         <Element className="about" id="about" name="about">
                 <div className="title right-title pr-10 text-3xl">
-                    about
+                    about me
                 </div>
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
                 <div className="mb-3 md:mr-5 pb-5 px-7 text-justify md:flex gap-4">
