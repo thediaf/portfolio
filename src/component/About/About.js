@@ -12,7 +12,7 @@ const About = () => {
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
                 <div className="mb-3 md:mr-5 pb-5 px-7 text-justify md:flex gap-4">
                     <div className="flex-none md:mr-7">
-                        <img src={picture} alt="my picture" className="shadow-lg w-56 mx-auto" />
+                        <img src={picture} alt="my picture" loading="lazy" className="shadow-lg w-56 mx-auto" />
                     </div>
                     <div className="flex-none md:flex-1">
                         <p className="text-xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"

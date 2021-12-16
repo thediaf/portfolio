@@ -18,7 +18,7 @@ const Works = () => {
             <div className="mb-3 pb-5 px-7  gap-4">
                 <Slide className="flex justify-center items-center flex-wrap md:mr-5" delay={200} duration={700} direction={"up"} triggerOnce>
                     <figure className="md:flex lg:w-4/5 my-5 md:p-0">
-                        <img src={ daaddo } alt="Daaddo Vdp" 
+                        <img src={ daaddo } alt="Daaddo Vdp"  loading="lazy"
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
                         <div className="pt-9 px-4 md:p-16  md:-ml-12 text-center shadow-lg rounded-xl md:text-left ">
@@ -46,7 +46,7 @@ const Works = () => {
                         </div>
                     </figure>
                     <figure className="md:flex flex-row-reverse lg:w-4/5 my-5 md:p-0">
-                        <img src={ courat } alt="Courat" 
+                        <img src={ courat } alt="Courat"  loading="lazy"
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
                         <div className="pt-9 px-4 md:p-16  md:-mr-12 text-center shadow-lg rounded-xl md:text-left">
@@ -77,7 +77,7 @@ const Works = () => {
                         </div>
                     </figure>
                     <figure className="md:flex lg:w-4/5 my-5 md:p-0">
-                        <img src={ po } alt="Opportinuties platform" 
+                        <img src={ po } alt="Opportinuties platform"  loading="lazy"
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
                         <div className="pt-9 px-4 md:p-16  md:-ml-12 text-center shadow-lg rounded-xl md:text-left">
@@ -105,7 +105,7 @@ const Works = () => {
                         </div>
                     </figure>
                     <figure className="md:flex flex-row-reverse lg:w-4/5 my-5 md:p-0">
-                        <img src={ cridem } alt="Cridem" 
+                        <img src={ cridem } alt="Cridem" loading="lazy" 
                             className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
                         />
                         <div className="pt-9 px-4 md:p-16  md:-mr-12 text-center shadow-lg rounded-xl md:text-left">
