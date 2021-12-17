@@ -1,8 +1,7 @@
 import React from "react";
 import { Element } from "react-scroll";
 import { Slide } from "react-awesome-reveal"
-import { FaSymfony, FaBootstrap, FaJs} from 'react-icons/fa';
-import { GoFlame } from "react-icons/go";
+import { SiSymfony, SiBootstrap, SiMysql, SiPostgresql, SiJquery, SiCodeigniter } from "react-icons/si";
 
 import daaddo from "../../images/daaddo.png"
 import courat from "../../images/courat.png"
@@ -31,11 +30,14 @@ const Works = () => {
                             <figcaption className="font-medium">
                                 <div className="text-gray-500 flex justify-center m-auto">
                                     <a href="">
-                                        <FaSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <SiSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
                                     <a href="">
-                                        <FaBootstrap className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a>                                 
+                                        <SiBootstrap  className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    </a>     
+                                    <a href="">
+                                        <SiPostgresql className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    </a>                             
                                 </div>
                             </figcaption>
                             <div className="text-gray-500 flex justify-center m-auto   ">
@@ -62,10 +64,13 @@ const Works = () => {
                             <figcaption className="font-medium">
                                 <div className="text-gray-500 flex justify-center m-auto   ">
                                     <a href="">
-                                        <FaSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <SiSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a> 
                                     <a href="">
-                                        <FaBootstrap className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <SiBootstrap  className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    </a> 
+                                    <a href="">
+                                        <SiMysql className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
                                 </div>
                             </figcaption>
@@ -92,13 +97,16 @@ const Works = () => {
                             <figcaption className="font-medium">
                                 <div className="text-gray-500 flex justify-center m-auto   ">
                                     <a href="">
-                                        <GoFlame className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <SiCodeigniter className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a> 
                                     <a href="">
-                                        <FaJs className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <SiJquery className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a> 
                                     <a href="">
-                                        <FaBootstrap className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <SiBootstrap  className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    </a> 
+                                    <a href="">
+                                        <SiMysql className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
                                 </div>
                             </figcaption>
@@ -118,7 +126,10 @@ const Works = () => {
                             <figcaption className="font-medium">
                                 <div className="text-gray-500 flex justify-center m-auto   ">
                                     <a href="">
-                                        <FaSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                        <SiSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    </a> 
+                                    <a href="">
+                                        <SiPostgresql className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     </a>
                                 </div>
                             </figcaption>
