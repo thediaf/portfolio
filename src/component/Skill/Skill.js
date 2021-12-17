@@ -1,6 +1,7 @@
 import React from 'react';
 import { Element } from "react-scroll";
 import { Slide } from "react-awesome-reveal"
+import SkillLogo from './SkillLogo';
 
 import php from "../../images/php.png"
 import javascript from "../../images/javascript.png"
@@ -20,7 +21,9 @@ import git from "../../images/git.png"
 import npm from "../../images/npm.png"
 import composer from "../../images/composer.png"
 import linux from "../../images/linux.png"
-import SkillLogo from './SkillLogo';
+import yarn from "../../images/yarn.png"
+import heroku from "../../images/heroku.png"
+import github from "../../images/github.png"
 
 const Skill = () =>{
     return (
@@ -64,8 +67,11 @@ const Skill = () =>{
                     <span className="text-xl font-bold">Tools</span>
                     <div className="flex flex-wrap my-3">
                         <SkillLogo logo={git} alt="git" />
-                        <SkillLogo logo={npm} alt="npm" />
+                        <SkillLogo logo={github} alt="github" />
                         <SkillLogo logo={composer} alt="composer" />
+                        <SkillLogo logo={npm} alt="npm" />
+                        <SkillLogo logo={yarn} alt="yarn" />
+                        <SkillLogo logo={heroku} alt="heroku" />
                         <SkillLogo logo={linux} alt="linux" />
                     </div>
                 </div>
