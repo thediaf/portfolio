@@ -16,8 +16,9 @@ import bootstrap from "../../images/bootstrap.png"
 import jquery from "../../images/jquery.png"
 import mysql from "../../images/mysql.png"
 import oracle from "../../images/oracle.png"
-import postgre from "../../images/postgres.png"
+import postgresql from "../../images/postgresql.png"
 import git from "../../images/git.png"
+import github from "../../images/github.png"
 import npm from "../../images/npm.png"
 import composer from "../../images/composer.png"
 import linux from "../../images/linux.png"
@@ -25,6 +26,10 @@ import yarn from "../../images/yarn.png"
 import heroku from "../../images/heroku.png"
 
 const Skill = () =>{
+    const languages     =   [php, javascript, sql, css, html];
+    const frameworks    =   [symfony, codeigniter, react, jquery, tailwind, bootstrap]
+    const databases     =   [mysql, oracle, postgresql]
+    const tools         =   [git, github, composer, npm, yarn, heroku, linux]
     return (
         <div className=" flex justify-center wow slideInLeft">
         <Element className="skill" id="skills" name="skills">
@@ -36,41 +41,41 @@ const Skill = () =>{
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Languages</span>
                     <div className="flex flex-wrap">
-                        <SkillLogo logo={php} alt="php" />
-                        <SkillLogo logo={javascript} alt="javascript" />
-                        <SkillLogo logo={sql} alt="sql" />
-                        <SkillLogo logo={css} alt="css" />
-                        <SkillLogo logo={html} alt="html" />
+                        { languages.map((language, index) =>
+                            {return (
+                                <SkillLogo logo={language} alt="language" key={index} />
+                            )}
+                        )}
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Frameworks and libraries</span>
                     <div className="flex flex-wrap my-3">
-                        <SkillLogo logo={symfony} alt="symfony" />
-                        <SkillLogo logo={react} alt="react" />
-                        <SkillLogo logo={codeigniter} alt="codeigniter" />
-                        <SkillLogo logo={jquery} alt="jquery" />
-                        <SkillLogo logo={tailwind} alt="tailwind" />
-                        <SkillLogo logo={bootstrap} alt="bootstrap" />
+                        { frameworks.map((framework, index) =>
+                            {return (
+                                <SkillLogo logo={framework} alt="framework" key={index} />
+                            )}
+                        )}
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Databases</span>
                     <div className="flex flex-wrap my-3">
-                        <SkillLogo logo={mysql} alt="mysql" />
-                        <SkillLogo logo={oracle} alt="oracle" />
-                        <SkillLogo logo={postgre} alt="postgre" />
+                        { databases.map((database, index) =>
+                            {return (
+                                <SkillLogo logo={database} alt="database" key={index} />
+                            )}
+                        )}
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Tools</span>
                     <div className="flex flex-wrap my-3">
-                        <SkillLogo logo={git} alt="git" />
-                        <SkillLogo logo={composer} alt="composer" />
-                        <SkillLogo logo={npm} alt="npm" />
-                        <SkillLogo logo={yarn} alt="yarn" />
-                        <SkillLogo logo={heroku} alt="heroku" />
-                        <SkillLogo logo={linux} alt="linux" />
+                        { tools.map((tool, index) =>
+                            {return (
+                                <SkillLogo logo={tool} alt="tool" key={index} />
+                            )}
+                        )}
                     </div>
                 </div>
             </Slide>
