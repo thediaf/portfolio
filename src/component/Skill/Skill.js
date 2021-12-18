@@ -23,7 +23,6 @@ import composer from "../../images/composer.png"
 import linux from "../../images/linux.png"
 import yarn from "../../images/yarn.png"
 import heroku from "../../images/heroku.png"
-import github from "../../images/github.png"
 
 const Skill = () =>{
     return (
@@ -67,7 +66,6 @@ const Skill = () =>{
                     <span className="text-xl font-bold">Tools</span>
                     <div className="flex flex-wrap my-3">
                         <SkillLogo logo={git} alt="git" />
-                        <SkillLogo logo={github} alt="github" />
                         <SkillLogo logo={composer} alt="composer" />
                         <SkillLogo logo={npm} alt="npm" />
                         <SkillLogo logo={yarn} alt="yarn" />
