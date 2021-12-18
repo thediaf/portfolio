@@ -26,13 +26,13 @@ const Contact = () => {
                     <div className="max-w-md md:flex-1 py-4 px-8 bg-white shadow-md rounded-lg mx-3 my-7">
                         <FaPhone className="text-4xl mx-auto" />
                         <p className="mt-2 text-gray-600 text-center">
-                            +222 48 29 17 06
+                            +221 77 856 17 10
                         </p>
                     </div>
                     <div className="max-w-md md:flex-1 py-4 px-8 bg-white shadow rounded-lg mx-3 my-7">
                         <FaMapMarkerAlt className="text-4xl mx-auto" />
                         <p className="mt-2 text-gray-600 text-center">
-                            Sebkha, Nouakchott
+                            Grand Yoff, Dakar
                         </p>
                     </div>
                 </div>
