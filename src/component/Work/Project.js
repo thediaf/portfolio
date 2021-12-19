@@ -19,47 +19,34 @@ const Project = (props) => {
                     <div className="text-gray-500 flex justify-center m-auto">
                     {
                         props.technos.map((techno, index) => {
-                            if (techno === 'symfony') {
-                                return (
-                                    <a key={index}>
-                                        <SiSymfony className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a>
-                                )
-                            }
-                            else if (techno === 'codeigniter') {
-                                return (
-                                    <a key={index}>
-                                        <SiCodeigniter className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a>
-                                )
-                            }
-                            else if (techno === 'bootstrap') {
-                                return (
-                                    <a key={index}>
-                                        <SiBootstrap className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a>
-                                )
-                            }
-                            else if (techno === 'jquery') {
-                                return (
-                                    <a key={index}>
-                                        <SiJquery className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a>
-                                )
-                            }
-                            else if (techno === 'mysql') {
-                                return (
-                                    <a key={index}>
-                                        <SiMysql className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a>
-                                )
-                            }
-                            else if (techno === 'postgresql') {
-                                return (
-                                    <a key={index}>
-                                        <SiPostgresql className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
-                                    </a>
-                                )
+                            switch (techno) {
+                                case 'symfony':
+                                    return (
+                                        <SiSymfony key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    
+                                    )
+                                case 'codeigniter':
+                                    return(
+                                        <SiCodeigniter key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    )
+                                case 'bootstrap':
+                                    return (
+                                        <SiBootstrap key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    )
+                                case 'tailwind':
+                                    return (
+                                        <SiJquery key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    )
+                                case 'mysql':
+                                    return (
+                                        <SiMysql key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    )
+                                case 'postgresql':
+                                    return (
+                                        <SiPostgresql key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    )
+                                default:
+                                    break;
                             }
                         })
                     }                          
