@@ -13,9 +13,7 @@ const NavBar = () => {
 
     return (
         <nav className="bg-white shadow-auto flex dark:bg-gray-800">
-            <div className="container px-6 mx-auto md:flex md:justify-between md:items-center
-                            "
-            >
+            <div className="container px-6 mx-auto md:flex md:justify-between md:items-center">
                 <div className="flex md:justify-between md:items-center h-24">
                     <div className="w-screen md:w-auto flex items-center justify-between">
                         <div>
@@ -52,7 +50,7 @@ const NavBar = () => {
                         <NavLink link="works" title="works" closeMobileMenu={closeMobileMenu} />
                         <NavLink link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
                     </div>
-                    </Rotate>`
+                    </Rotate>
                     
                 </div>
             </div>

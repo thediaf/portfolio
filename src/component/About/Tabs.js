@@ -107,7 +107,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 								setOpenTab(1);
 								}}
 						>
-							License
+							Bachelor 
 						</li>
 						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
 								(openTab === 2
@@ -119,7 +119,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 								setOpenTab(2);
 								}}
 						>
-							Baccalaureate
+							High School Diploma
 						</li>
 						
 					</ul>
@@ -130,7 +130,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 					<div className="tab-content tab-space">
 						<div className={openTab === 1 && openButton === 1 ? "block text-justify lg:ml-80" : "hidden"} id="link1">
 							<h3 className="text-xl">Internship @ 
-								<Tooltip accronyme=' CCOS' description="Centre de Calcul Ousmane Seck of Gaston Berger University" />
+								<Tooltip accronyme=' CCOS' description="Computing Center Ousmane Seck of Gaston Berger University" />
 							</h3>
 							<span>November 2020 - April 2021</span>
 							<p className="mt-2">Design and realization of opportunities platform  for Gaston Berger University students .</p>
@@ -142,14 +142,14 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						</div>
 						<div className={openTab === 2 && openButton === 1 ? "block text-justify lg:ml-28" : "hidden"} id="link1">
 							<h3 className="text-xl">Hackathon DevFest @ <span className="text-gray-700">Google Developer Group</span></h3>
-							<span>November 2020 - April 2021</span>
+							<span>Janvier 2020 </span>
 							<p className="mt-2">Creation of a web application for school management</p>
 						</div>
 						<div className={openTab === 3 && openButton === 1 ? "block text-justify lg:ml-64" : "hidden"} id="link1">
 							<h3 className="text-xl">72h d'hackathon @ 
-								<Tooltip accronyme=' CI UGB' description="Club Informatique of Gaston Berger University" />
+								<Tooltip accronyme=' CC UGB' description="Computer Club of Gaston Berger University" />
 							</h3>
-							<span>November 2020 - April 2021</span>
+							<span>Mars 2018</span>
 							<p className="mt-2">Prototyping and creation of an application of classroom schedule management</p>
 						</div>
 						<div className={openTab === 1 && openButton === 2 ? "block text-justify lg:ml-32" : "hidden"} id="link1">

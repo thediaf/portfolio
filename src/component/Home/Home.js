@@ -19,7 +19,7 @@ const Home = () => {
                     cursorColor="#3F3D56"
                     multiText={[
                         ' freelancer',
-                        ' problem solver',
+                        ' problems solver',
                         ' full-stack web developer',
                     ]}
                     loop={true}

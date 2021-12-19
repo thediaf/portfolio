@@ -18,9 +18,9 @@ const About = () => {
                         <p className="text-xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"
                         > 
                             Hello! I'm Diafra Soumare, a passionate software engineer. 
-                            I develop web application and design database. 
+                            I develop web applications and design databases. 
                             My core skill is based on PHP and JavaScript and I love to do most of the things using 
-                            Symfony, a PHP framework. I love to make the web more open to the world. I have graduated with 
+                            Symfony. I love to make the web more open to the world. I have graduated with 
                             a bachelor's degree in Computer Science Engineering from Gaston Berger University at 
                             Saint-Louis, Senegal in 2020. I am available for any kind of job opportunity that suits my interests.
                         </p>
