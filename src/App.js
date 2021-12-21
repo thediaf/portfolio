@@ -9,16 +9,14 @@ import Contact from './component/Contact/Contact';
 import Footer from './component/Footer/Footer';
 import { BrowserRouter } from 'react-router-dom';
 import TwinSpin from "react-cssfx-loading/lib/TwinSpin";
+import useDarkMode from "./hook/useDarkMode";
 
 function App() {
 
+  const [colorTheme, setTheme] = useDarkMode();
+  const TwinSpinColor = colorTheme === 'light' ? 'white' : 'black'
+
   const [loading, setLoading] = useState(true)
-
-//   useEffect(() => {
-//     setTimeout(() => setLoading(false), 3000)
-
-//   }, []);
-
 	const handleLoading = () => {
 		setLoading(false);
 	}
@@ -28,10 +26,15 @@ function App() {
 		return () => window.removeEventListener("load",handleLoading);
 	},[]);
 
+  // useEffect(() => {
+  //   setTimeout(() => setLoading(false), 3000)
+
+  // }, []);
+
   return (
     <>
-    {loading === false ? (
         <div className="App">
+    {loading === false ? (
           <div className="container mx-auto">
             <BrowserRouter>
             
@@ -45,13 +48,14 @@ function App() {
                 <Footer />
               </main>
             </BrowserRouter>
-          </div>
         </div>
      ) : (
-    	<div className="flex h-screen">
-    		<TwinSpin color="rgba(0, 0, 0)" className="m-auto text-gray-900" width="100px" height="100px"  />
+    	<div className="flex h-screen bg-white dark:bg-gray-900">
+    		<TwinSpin color={TwinSpinColor} className="m-auto" width="100px" height="100px"  />
     	</div>
     )}
+          </div>
+
     </>
   );
 }
