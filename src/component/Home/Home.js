@@ -7,8 +7,8 @@ const Home = () => {
     return (
         <div className="py-5 md:py-10 md:my-24 px-7 grid grid-cols-3 gap-4">
             <div className="col-span-2 text-center">
-                <h1 className="text-5xl md:text-7xl">Hi! I'm Diafra Soumare</h1>
-                <div className="text-xl md:text-4xl mt-5"
+                <h1 className="text-5xl md:text-7xl dark:text-gray-50">Hi! I'm Diafra Soumare</h1>
+                <div className="text-xl md:text-4xl mt-5 dark:text-gray-400"
                 >
                     I'm a
                 <TypeWriterEffect

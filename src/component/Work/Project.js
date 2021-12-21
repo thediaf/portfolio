@@ -8,15 +8,15 @@ const Project = (props) => {
             <img src={ props.img } alt={ props.title }  loading="lazy"
                 className="-mb-5 md:mb-0 transition transform duration-500 delay-300 h-56 lg:h-64 self-center hover: hover:scale-125"
             />
-            <div className={"py-9 px-4 md:p-16 md:w-screen text-center shadow-lg rounded-xl md:text-left " + (props.reverse ? " md:-mr-12" : " md:-ml-12")}>
-                <blockquote className="text-center">
+            <div className={"dark:bg-gray-800 py-9 px-4 md:p-16 md:w-screen text-center shadow-lg rounded-xl md:text-left " + (props.reverse ? " md:-mr-12" : " md:-ml-12")}>
+                <blockquote className="text-center dark:text-gray-300">
                     <h1 className="text-2xl font-semibold">{props.title}</h1>
                     <p className="">
                         {props.description}
                     </p>
                 </blockquote>
                 <figcaption className="font-medium">
-                    <div className="text-gray-500 flex justify-center m-auto">
+                    <div className="text-gray-300  flex justify-center m-auto">
                     {
                         props.technos.map((techno, index) => {
                             switch (techno) {
@@ -53,8 +53,8 @@ const Project = (props) => {
                     </div>
                 </figcaption>
                 {props.link ?
-                    <div className="text-gray-500 flex justify-center m-auto   ">
-                        <a href={ props.link } className="shadow p-2 text-xl hover:text-gray-900">
+                    <div className="text-gray-500 dark:text-gray-300 flex justify-center m-auto   ">
+                        <a href={ props.link } className="shadow p-2 text-xl dark:hover:text-gray-500 hover:text-gray-900">
                             Live demo
                         </a>
                     </div>

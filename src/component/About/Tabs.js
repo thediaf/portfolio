@@ -57,7 +57,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 			<div className="flex justify-center items-center">
 				<div className={openButton === 1 ? "block" : "hidden"}>
 					<ul className="flex justify-center items-center my-4">
-						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 1
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -69,7 +69,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						>
 							Stage
 						</li>
-						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 2
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -81,7 +81,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						>
 							Hackathon
 						</li>
-						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 3
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -97,7 +97,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 				</div>
 				<div className={openButton === 2 ? "block" : "hidden"}>
 					<ul className="flex justify-center items-center my-4">
-						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 1
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -109,7 +109,7 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						>
 							Bachelor 
 						</li>
-						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 " +
+						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 2
 								? "border-" + tabColor
 								: " border-gray-300")
@@ -125,9 +125,9 @@ const Tabs = ({ buttonColor, tabColor }) => {
 					</ul>
 				</div>
 			</div>
-			<div className="relative flex flex-col min-w-0 break-words bg-white dark:bg-gray-900 w-auto items-center">
+			<div className="relative flex flex-col min-w-0 break-words  w-auto items-center">
 				<div className="px-10 flex-auto">
-					<div className="tab-content tab-space">
+					<div className="tab-content tab-space dark:text-gray-300">
 						<div className={openTab === 1 && openButton === 1 ? "block text-justify lg:ml-80" : "hidden"} id="link1">
 							<h3 className="text-xl">Internship @ 
 								<Tooltip accronyme=' CCOS' description="Computing Center Ousmane Seck of Gaston Berger University" />

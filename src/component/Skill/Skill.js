@@ -33,10 +33,10 @@ const Skill = () =>{
     return (
         <div className=" flex justify-center wow slideInLeft">
         <Element className="skill" id="skills" name="skills">
-             <div className="title left-title pl-10 text-3xl">
+             <div className="title dark:text-gray-50 left-title pl-10 text-3xl">
                 my skills
             </div>
-            <div className="mb-3 md:ml-5 pb-5 px-7 text-justify gap-4">
+            <div className="mb-3 md:ml-5 pb-5 px-7 text-justify gap-4 dark:text-gray-300">
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
                 <div className="md:ml-5 mt-4">
                     <span className="text-xl font-bold">Languages</span>

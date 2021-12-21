@@ -6,7 +6,7 @@ import { Slide } from "react-awesome-reveal"
 const About = () => {
     return (
         <Element className="about" id="about" name="about">
-                <div className="title right-title pr-10 text-3xl">
+                <div className="title right-title dark:text-gray-50 pr-10 text-3xl">
                     about me
                 </div>
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
@@ -15,7 +15,7 @@ const About = () => {
                         <img src={picture} alt="my picture" loading="lazy" className="shadow-lg w-56 mx-auto" />
                     </div>
                     <div className="flex-none md:flex-1">
-                        <p className="text-xl mt-8 md:mt-0  rotate-180 before:bg-blue-500"
+                        <p className="text-xl dark:text-gray-300 mt-8 md:mt-0  rotate-180 before:bg-blue-500"
                         > 
                             Hello! I'm Diafra Soumare, a passionate software engineer. 
                             I develop web applications and design databases. 
