@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Tabs.css'
 import Tooltip from "./Tooltips";
 
 const Tabs = ({ buttonColor, tabColor }) => {

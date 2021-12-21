@@ -3,6 +3,7 @@ import TabsRender from "./Tabs";
 import { Element } from "react-scroll";
 import picture from "../../images/picture.jpg"
 import { Slide } from "react-awesome-reveal"
+
 const About = () => {
     return (
         <Element className="about" id="about" name="about">
