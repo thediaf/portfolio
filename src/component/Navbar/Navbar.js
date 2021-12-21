@@ -33,10 +33,10 @@ const NavBar = () => {
                                 {
                                     click ? 
                                         <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}>
-                                            <FaTimes className="text-2xl text-gray-900" />
+                                            <FaTimes className="text-2xl text-gray-900 dark:text-gray-200" />
                                         </Rotate>
                                     : 
-                                        <FaBars className="text-2xl text-gray-900" />
+                                        <FaBars className="text-2xl text-gray-900 dark:text-gray-200" />
                                 }
                             </button>
                         </div>
@@ -51,11 +51,11 @@ const NavBar = () => {
                         <NavItem link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="works" title="works" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
-                        <span onClick={() => setTheme(colorTheme)} className="w-10 h-10 -mt-2 rounded-full text-center dark:bg-gray-900 shadow-lg cursor-pointer dark:text-gray-50 flex justify-center items-center">
+                        <span onClick={() => setTheme(colorTheme)} className="w-10 h-10 md:-mt-2 mx-auto my-3 md:-my-1 rounded-full text-center dark:bg-gray-900 shadow-lg cursor-pointer dark:text-gray-50 flex justify-center items-center">
                             { colorTheme === 'light' ?
-                                <FaSun />
+                                <FaSun onClick={closeMobileMenu} />
                             :
-                                <FaMoon />
+                                <FaMoon onClick={closeMobileMenu} />
                         }
 
                         </span>
