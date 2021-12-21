@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa'
-import NavLink from './NavLink';
+import NavItem from './NavItem';
 import { Rotate } from "react-awesome-reveal"
 
 const NavBar = () => {
@@ -44,11 +44,11 @@ const NavBar = () => {
                 <div className={click ? 'items-center md:flex transition-all block' : 'items-center flex-none md:flex hidden'}>
                     <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}  triggerOnce>
                     <div className="flex flex-col mb-5 text-center md:flex-row md:mx-6">
-                        <NavLink link="/" title="home" closeMobileMenu={closeMobileMenu} />
-                        <NavLink link="about" title="about" closeMobileMenu={closeMobileMenu} />
-                        <NavLink link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
-                        <NavLink link="works" title="works" closeMobileMenu={closeMobileMenu} />
-                        <NavLink link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="/" title="home" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="about" title="about" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="works" title="works" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
                     </div>
                     </Rotate>
                     
