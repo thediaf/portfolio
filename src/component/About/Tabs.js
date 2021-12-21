@@ -17,8 +17,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
                     className={
                       "transition delay-150 duration-500 transform hover:shadow-md hover:scale-125 text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                       (openButton === 1
-                        ? "text-white bg-" + buttonColor
-                        : "text-" + buttonColor + " bg-white")
+                        ? "text-gray-50 bg-gray-900 dark:text-gray-900 dark:bg-gray-50"
+                        : "text-gray-900 bg-gray-50 dark:text-gray-50 dark:bg-gray-900")
                     }
                     onClick={e => {
                       e.preventDefault();
@@ -37,8 +37,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
                   className={
                     "transition delay-150 duration-500 transform hover:shadow-md hover:scale-125 text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal " +
                     (openButton === 2
-                      ? "text-white bg-" + buttonColor
-                      : "text-" + buttonColor + " bg-white")
+                        ? "text-gray-50 bg-gray-900 dark:text-gray-900 dark:bg-gray-50"
+                        : "text-gray-900 bg-gray-50 dark:text-gray-50 dark:bg-gray-900")
                   }
                   onClick={e => {
                     e.preventDefault();
@@ -59,8 +59,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
 					<ul className="flex justify-center items-center my-4">
 						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 1
-								? "border-" + tabColor
-								: " border-gray-300")
+								? "border-gray-900 dark:border-gray-300"
+								: " border-gray-300 dark:border-gray-700")
 							}
 							onClick={e => {
 								e.preventDefault();
@@ -71,8 +71,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						</li>
 						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 2
-								? "border-" + tabColor
-								: " border-gray-300")
+								? "border-gray-900 dark:border-gray-300"
+								: " border-gray-300 dark:border-gray-700")
 							}
 							onClick={e => {
 								e.preventDefault();
@@ -83,8 +83,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						</li>
 						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 3
-								? "border-" + tabColor
-								: " border-gray-300")
+								? "border-gray-900 dark:border-gray-300"
+								: " border-gray-300 dark:border-gray-700")
 							}
 							onClick={e => {
 								e.preventDefault();
@@ -99,8 +99,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
 					<ul className="flex justify-center items-center my-4">
 						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 1
-								? "border-" + tabColor
-								: " border-gray-300")
+								? "border-gray-900 dark:border-gray-300"
+								: " border-gray-300 dark:border-gray-700")
 							}
 							onClick={e => {
 								e.preventDefault();
@@ -111,8 +111,8 @@ const Tabs = ({ buttonColor, tabColor }) => {
 						</li>
 						<li className={"cursor-pointer py-2 px-4  border-b-8 text-gray-900 dark:text-gray-400 " +
 								(openTab === 2
-								? "border-" + tabColor
-								: " border-gray-300")
+								? "border-gray-900 dark:border-gray-300"
+								: " border-gray-300 dark:border-gray-700")
 							}
 							onClick={e => {
 								e.preventDefault();
