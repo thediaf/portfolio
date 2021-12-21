@@ -41,6 +41,15 @@ code {
   background-color: #112240;
 }
 
+@media screen and (prefers-color-scheme: dark) {
+
+.title::before {
+  background-color: rgba(31, 41, 55, 1);
+}
+.title::after {
+  background-color: rgba(31, 41, 55, 1) !important;
+}
+}
 /* .right-title {
   justify-content: end;
 } */
