@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa'
+import { FaBars, FaMoon, FaSun, FaTimes } from 'react-icons/fa'
 import NavItem from './NavItem';
 import { Rotate } from "react-awesome-reveal"
+import useDarkMode from '../../hook/useDarkMode';
 
 const NavBar = () => {
 
@@ -10,6 +11,7 @@ const NavBar = () => {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
+    const [colorTheme, setTheme] = useDarkMode();
 
     return (
         <nav className="bg-white shadow-auto flex dark:bg-gray-900">
@@ -49,6 +51,14 @@ const NavBar = () => {
                         <NavItem link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="works" title="works" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
+                        <span onClick={() => setTheme(colorTheme)} className="w-10 h-10 -mt-2 rounded-full text-center dark:bg-gray-900 shadow-lg cursor-pointer dark:text-gray-50 flex justify-center items-center">
+                            { colorTheme === 'light' ?
+                                <FaSun />
+                            :
+                                <FaMoon />
+                        }
+
+                        </span>
                     </div>
                     </Rotate>
                     
