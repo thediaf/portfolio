@@ -1,0 +1,56 @@
+.load-screen{
+    display: flex;
+    height: 100vh;
+  }
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 3.5em;
+    height: 3.5em;
+    border: 3px solid transparent;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-radius: 50%;
+    animation: spin 1.5s linear infinite;
+  }
+  
+  .loader:before {
+    content: '';
+    display: block;
+    margin: auto;
+    width: 0.75em;
+    height: 0.75em;
+    border: 3px solid black;
+    border-radius: 50%;
+    animation: pulse 1s alternate ease-in-out infinite;
+  }
+
+  @media screen and (prefers-color-scheme: dark) {
+    body{
+      background-color: rgba(17, 24, 39, 1);
+    }
+    .loader {
+      border-top-color: white;
+      border-bottom-color: white;
+    }
+    .loader::before {
+      border: 3px solid white;
+    }
+  }
+  
+  @keyframes spin {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.5);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
