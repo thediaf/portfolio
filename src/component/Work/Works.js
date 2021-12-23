@@ -2,10 +2,13 @@ import React from "react";
 import { Element } from "react-scroll";
 import { Slide } from "react-awesome-reveal"
 
+
+import epcm from "../../images/epcm.png"
 import daaddo from "../../images/daaddo.png"
 import courat from "../../images/courat.png"
 import po from "../../images/PO-UGB.png"
 import cridem from "../../images/cridem.png"
+
 import Project from "./Project";
 
 const Works = () => {
@@ -17,6 +20,13 @@ const Works = () => {
             <div className="mb-3 pb-5 px-7  gap-4">
                 <Slide className="flex justify-center items-center flex-wrap md:mr-5" delay={200} duration={700} direction={"up"} triggerOnce>
                     <Project 
+                        img={epcm} 
+                        title='Cheikh Moussa Private Schools' 
+                        technos={['symfony', 'bootstrap', 'mysql']} 
+                        description="Showcase website for Cheikh Moussa Private Schools" 
+                        link="https://ecolescheikhmoussa.com/" 
+                    />
+                    <Project 
                         img={courat} 
                         title='Courat' 
                         technos={['symfony', 'bootstrap', 'mysql']} 
@@ -24,13 +34,6 @@ const Works = () => {
                             allows students prepare for their exams by offering them resources such as archives and course videos online, 
                             during the Covid-19 crisis." 
                         link="https://courat.net" 
-                    />
-                    <Project 
-                        img={daaddo} 
-                        title='Daaddo Vdp' 
-                        technos={['symfony', 'bootstrap', 'postgresql']} 
-                        description="Showcase website for plastics wastes recycling startup in Mauritania" 
-                        link="https://daaddo.heroku.com" 
                         reverse={true}
                     />
                     <Project 
@@ -49,6 +52,13 @@ const Works = () => {
                         description="Creation of a website like cridem.org with better design and responsivity" 
                         link="https://cridem.heroku.com"
                         reverse={true}
+                    />
+                    <Project 
+                        img={daaddo} 
+                        title='Daaddo Vdp' 
+                        technos={['symfony', 'bootstrap', 'postgresql']} 
+                        description="Showcase website for plastics wastes recycling startup in Mauritania" 
+                        link="https://daaddo.heroku.com" 
                     />
                 </Slide>
             </div>
