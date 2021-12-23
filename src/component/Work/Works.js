@@ -20,20 +20,20 @@ const Works = () => {
             <div className="mb-3 pb-5 px-7  gap-4">
                 <Slide className="flex justify-center items-center flex-wrap md:mr-5" delay={200} duration={700} direction={"up"} triggerOnce>
                     <Project 
-                        img={epcm} 
-                        title='Cheikh Moussa Private Schools' 
-                        technos={['symfony', 'bootstrap', 'mysql']} 
-                        description="Showcase website for Cheikh Moussa Private Schools" 
-                        link="https://ecolescheikhmoussa.com/" 
-                    />
-                    <Project 
                         img={courat} 
                         title='Courat' 
                         technos={['symfony', 'bootstrap', 'mysql']} 
-                        description="Contribution to the creation of the courat.net. An educational platform that 
+                        description="Contribution to the creation of Courat. An educational platform that 
                             allows students prepare for their exams by offering them resources such as archives and course videos online, 
                             during the Covid-19 crisis." 
                         link="https://courat.net" 
+                    />
+                    <Project 
+                        img={epcm} 
+                        title='Cheikh Moussa Private Schools' 
+                        technos={['symfony', 'bootstrap', 'mysql']} 
+                        description="Contribution to the creation of Cheikh Moussa Private Schools showcase website" 
+                        link="https://ecolescheikhmoussa.com/" 
                         reverse={true}
                     />
                     <Project 
