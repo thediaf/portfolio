@@ -23,7 +23,7 @@ const About = () => {
                             My core skill is based on PHP and JavaScript and I love to do most of the things using 
                             Symfony. I love to make the web more open to the world. I have graduated with 
                             a bachelor's degree in Computer Science Engineering from Gaston Berger University at 
-                            Saint-Louis, Senegal in 2020. I am available for any kind of job opportunity that suits my interests.
+                            Saint-Louis, Senegal in 2020. I am available for any kind of job opportunity that suit my interests.
                         </p>
                     </div>
                 </div>
