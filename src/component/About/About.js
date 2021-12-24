@@ -18,7 +18,7 @@ const About = () => {
                     <div className="flex-none md:flex-1">
                         <p className="text-xl dark:text-gray-300 mt-8 md:mt-0  rotate-180 before:bg-blue-500"
                         > 
-                            Hello! I'm Diafra Soumare, a passionate software engineer. 
+                            Hello! My name's Diafra Soumare, a passionate software developer. 
                             I develop web applications and design databases. 
                             My core skill is based on PHP and JavaScript and I love to do most of the things using 
                             Symfony. I love to make the web more open to the world. I have graduated with 
