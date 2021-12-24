@@ -29,7 +29,7 @@ const Home = () => {
                 </div>
             </div>
             <div className="picture">
-                <img src={picture} alt="my picture" loading="lazy" className="shadow-xl w-60 nimate-wiggle" />
+                <img src={picture} alt="my picture" loading="lazy" className="shadow-xl w-60" />
             </div>
         </div>
 
