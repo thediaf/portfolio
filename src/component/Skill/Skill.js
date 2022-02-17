@@ -24,12 +24,14 @@ import composer from "../../images/composer.png"
 import linux from "../../images/linux.png"
 import yarn from "../../images/yarn.png"
 import heroku from "../../images/heroku.png"
+import wordpress from "../../images/wordpress.png"
 
 const Skill = () =>{
     const languages     =   [php, javascript, sql, css, html];
     const frameworks    =   [symfony, codeigniter, react, jquery, tailwind, bootstrap]
     const databases     =   [mysql, oracle, postgresql]
-    const tools         =   [git, github, composer, npm, yarn, heroku, linux]
+    const tools         =   [git, github, composer, npm, yarn, heroku, linux, wordpress]
+
     return (
         <div className=" flex justify-center wow slideInLeft">
         <Element className="skill" id="skills" name="skills">
