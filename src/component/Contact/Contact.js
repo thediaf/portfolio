@@ -32,7 +32,7 @@ const Contact = () => {
                     <div className="max-w-md md:flex-1 py-4 px-8 bg-white dark:bg-gray-800 shadow rounded-lg mx-3 my-7">
                         <FaMapMarkerAlt className="text-4xl mx-auto" />
                         <p className="mt-2 text-gray-600 dark:text-gray-400 text-center">
-                            Grand Yoff, Dakar
+                            Gueule Tapée, Dakar
                         </p>
                     </div>
                 </div>
