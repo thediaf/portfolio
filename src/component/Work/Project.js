@@ -1,5 +1,5 @@
 import React from "react";
-import { SiSymfony, SiBootstrap, SiMysql, SiPostgresql, SiJquery, SiCodeigniter } from "react-icons/si";
+import { SiSymfony, SiBootstrap, SiMysql, SiPostgresql, SiJquery, SiCodeigniter, SiWordpress } from "react-icons/si";
 
 
 const Project = (props) => {
@@ -44,6 +44,10 @@ const Project = (props) => {
                                 case 'postgresql':
                                     return (
                                         <SiPostgresql key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
+                                    )
+                                case 'wordpress':
+                                    return (
+                                        <SiWordpress key={ index } className="shadow p-2 text-4xl m-3 hover:text-gray-900" />
                                     )
                                 default:
                                     break;
