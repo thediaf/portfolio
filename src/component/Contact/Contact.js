@@ -38,7 +38,7 @@ const Contact = () => {
                 </div>
 
                 <div className="flex justify-center text-3xl">
-                    <a href="https://web.facebook.com/diafara.soumare.7" className="m-3">
+                    <a href="https://www.facebook.com/diafra.soumare.98" className="m-3">
                         <FaFacebookF />
                     </a>
                     <a href="https://github.com/thediaf" className="m-3">
@@ -47,7 +47,7 @@ const Contact = () => {
                     <a href="https://www.linkedin.com/in/diafra-soumar%C3%A9-a53b8518a/" className="m-3">
                         <FaLinkedinIn />
                     </a>
-                    <a href="https://twitter.com/Diafra98" className="m-3">
+                    <a href="https://twitter.com/diafra_soumare" className="m-3">
                         <FaTwitter />
                     </a>
                 </div>
