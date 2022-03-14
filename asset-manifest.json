@@ -1,31 +1,33 @@
 {
   "files": {
     "main.css": "/static/css/main.e82f9579.chunk.css",
-    "main.js": "/static/js/main.c75e7284.chunk.js",
-    "main.js.map": "/static/js/main.c75e7284.chunk.js.map",
+    "main.js": "/static/js/main.a6c561f6.chunk.js",
+    "main.js.map": "/static/js/main.a6c561f6.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.8c7fe252.js",
     "runtime-main.js.map": "/static/js/runtime-main.8c7fe252.js.map",
-    "static/js/2.b16a22c1.chunk.js": "/static/js/2.b16a22c1.chunk.js",
-    "static/js/2.b16a22c1.chunk.js.map": "/static/js/2.b16a22c1.chunk.js.map",
+    "static/js/2.d76bb8d7.chunk.js": "/static/js/2.d76bb8d7.chunk.js",
+    "static/js/2.d76bb8d7.chunk.js.map": "/static/js/2.d76bb8d7.chunk.js.map",
     "static/js/3.da486ad6.chunk.js": "/static/js/3.da486ad6.chunk.js",
     "static/js/3.da486ad6.chunk.js.map": "/static/js/3.da486ad6.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.e82f9579.chunk.css.map": "/static/css/main.e82f9579.chunk.css.map",
-    "static/js/2.b16a22c1.chunk.js.LICENSE.txt": "/static/js/2.b16a22c1.chunk.js.LICENSE.txt",
+    "static/js/2.d76bb8d7.chunk.js.LICENSE.txt": "/static/js/2.d76bb8d7.chunk.js.LICENSE.txt",
     "static/media/PO-UGB.0676f4b1.png": "/static/media/PO-UGB.0676f4b1.png",
     "static/media/composer.fe14972b.png": "/static/media/composer.fe14972b.png",
     "static/media/courat.d9a4630b.png": "/static/media/courat.d9a4630b.png",
     "static/media/cridem.555a2242.png": "/static/media/cridem.555a2242.png",
     "static/media/daaddo.c67f35b6.png": "/static/media/daaddo.c67f35b6.png",
     "static/media/epcm.c51a4020.png": "/static/media/epcm.c51a4020.png",
+    "static/media/lupin.1f8815e4.png": "/static/media/lupin.1f8815e4.png",
+    "static/media/mdiforum.871fe328.png": "/static/media/mdiforum.871fe328.png",
     "static/media/picture.d0738481.jpg": "/static/media/picture.d0738481.jpg",
     "static/media/profile.e8d782bb.jpg": "/static/media/profile.e8d782bb.jpg",
     "static/media/tailwind.36b2728b.png": "/static/media/tailwind.36b2728b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.8c7fe252.js",
-    "static/js/2.b16a22c1.chunk.js",
+    "static/js/2.d76bb8d7.chunk.js",
     "static/css/main.e82f9579.chunk.css",
-    "static/js/main.c75e7284.chunk.js"
+    "static/js/main.a6c561f6.chunk.js"
   ]
 }
