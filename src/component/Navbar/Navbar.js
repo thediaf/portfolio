@@ -47,9 +47,9 @@ const NavBar = () => {
                     <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}  triggerOnce>
                     <div className="flex flex-col text-center md:flex-row">
                         <NavItem link="/" title="home" closeMobileMenu={closeMobileMenu} />
-                        <NavItem link="about" title="about" closeMobileMenu={closeMobileMenu} />
-                        <NavItem link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="works" title="works" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="about" title="about" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
                         <span onClick={() => setTheme(colorTheme)} className="w-10 h-10 md:-mt-2 mx-auto my-3 md:-my-1 rounded-full text-center dark:bg-gray-900 shadow-lg cursor-pointer dark:text-gray-50 flex justify-center items-center">
                             { colorTheme === 'light' ?
