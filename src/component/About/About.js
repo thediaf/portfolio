@@ -11,12 +11,8 @@ const About = () => {
                     about me
                 </div>
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
-                <div className="mb-3 md:mr-5 pb-5 px-7 text-justify md:flex gap-4">
-                    <div className="flex-none md:mr-7">
-                        <img src={picture} alt="my picture" loading="lazy" className="shadow-lg w-56 mx-auto" />
-                    </div>
-                    <div className="flex-none md:flex-1">
-                        <p className="text-xl dark:text-gray-300 mt-8 md:mt-0  rotate-180 before:bg-blue-500"
+                <div className="mb-3 md:mr-5 pb-5 px-7 mx-auto text-center gap-4">
+                        <p className="text-xl dark:text-gray-300 mt-8 md:mt-0 mx-auto w-3/4 before:bg-blue-500"
                         > 
                             Hello! My name's Diafra Soumare, a passionate software developer. 
                             I develop web applications and design databases. 
@@ -26,7 +22,6 @@ const About = () => {
                             Saint-Louis, Senegal in 2020. I am available for any kind of job opportunity that suit my interests.
                         </p>
                     </div>
-                </div>
                 <TabsRender />
             </Slide>
         </Element>
