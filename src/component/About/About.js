@@ -1,7 +1,6 @@
 import React from "react";
 import TabsRender from "./Tabs";
 import { Element } from "react-scroll";
-import picture from "../../images/picture.jpg"
 import { Slide } from "react-awesome-reveal"
 
 const About = () => {
