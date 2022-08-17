@@ -6,7 +6,7 @@ import { Slide } from "react-awesome-reveal"
 const About = () => {
     return (
         <Element className="about" id="about" name="about">
-                <div className="title right-title dark:text-gray-50 pr-10 text-3xl">
+                <div className="title left-title dark:text-gray-50 pl-10 text-3xl">
                     about me
                 </div>
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
