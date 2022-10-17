@@ -6,12 +6,12 @@ import { Slide } from "react-awesome-reveal"
 const About = () => {
     return (
         <Element className="about" id="about" name="about">
-                <div className="title left-title dark:text-gray-50 pl-10 text-3xl">
+                <div className="title left-title text-blue-900 dark:text-blue-400 pl-10 text-3xl">
                     about me
                 </div>
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
                 <div className="mb-3 md:mr-5 pb-5 px-7 mx-auto text-center gap-4">
-                        <p className="text-xl dark:text-gray-300 mt-8 md:mt-0 mx-auto w-3/4 before:bg-blue-500"
+                        <p className="text-xl text-justify dark:text-gray-300 mt-8 md:mt-0 mx-auto w-3/4 before:bg-blue-500"
                         > 
                             Hello! My name's Diafra Soumare, a passionate software developer. 
                             I develop web applications and design databases. 

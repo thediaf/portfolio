@@ -21,7 +21,7 @@ const Tooltip = ({accronyme, description}) => {
   
   return (
     <>
-      <a className="text-gray-700" 
+      <a className="text-blue-700" 
             onMouseEnter={openLeftTooltip}
             onMouseLeave={closeLeftTooltip}
             ref={btnRef}

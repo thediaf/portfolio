@@ -31,7 +31,7 @@ const Home = () => {
                     typeSpeed={30}
                 /></div>
                 </div>
-                <div className="flex justify-center text-3xl text-blue-800 dark:text-blue-400">
+                <div className="flex justify-center text-3xl text-blue-900 dark:text-blue-400">
                     <a href="mailto:jaharacs98@gmail.com" className="m-3">
                         <FaEnvelope />
                     </a>
