@@ -35,13 +35,13 @@ const Skill = () =>{
     return (
         <div className=" flex justify-center wow slideInLeft">
         <Element className="skill" id="skills" name="skills">
-             <div className="title dark:text-gray-50 left-title pl-10 text-3xl">
+             <div className="title left-title text-blue-900 dark:text-blue-400 pl-10 text-3xl">
                 my skills
             </div>
             <div className="mb-3 md:ml-5 pb-5 px-7 text-justify gap-4 dark:text-gray-300">
             <Slide delay={200} duration={700} direction={"up"} triggerOnce>
                 <div className="md:ml-5 mt-4">
-                    <span className="text-xl font-bold">Languages</span>
+                    <span className="text-blue-900 dark:text-blue-400 text-xl font-bold">Languages</span>
                     <div className="flex flex-wrap">
                         { languages.map((language, index) =>
                             {return (
@@ -51,7 +51,7 @@ const Skill = () =>{
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
-                    <span className="text-xl font-bold">Frameworks and libraries</span>
+                    <span className="text-blue-900 dark:text-blue-400 text-xl font-bold">Frameworks and libraries</span>
                     <div className="flex flex-wrap my-3">
                         { frameworks.map((framework, index) =>
                             {return (
@@ -61,7 +61,7 @@ const Skill = () =>{
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
-                    <span className="text-xl font-bold">Databases</span>
+                    <span className="text-blue-900 dark:text-blue-400 text-xl font-bold">Databases</span>
                     <div className="flex flex-wrap my-3">
                         { databases.map((database, index) =>
                             {return (
@@ -71,7 +71,7 @@ const Skill = () =>{
                     </div>
                 </div>
                 <div className="md:ml-5 mt-4">
-                    <span className="text-xl font-bold">Tools</span>
+                    <span className="text-blue-900 dark:text-blue-400 text-xl font-bold">Tools</span>
                     <div className="flex flex-wrap my-3">
                         { tools.map((tool, index) =>
                             {return (
