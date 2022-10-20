@@ -58,7 +58,7 @@ const Project = (props) => {
                 </figcaption>
                 {props.link ?
                     <div className="text-gray-500 dark:text-gray-300 flex justify-center m-auto   ">
-                        <a href={ props.link } className="shadow p-2 text-xl text-blue-900 dark:text-gray-100  hover:text-blue-400 dark:hover:text-blue-400">
+                        <a href={ props.link } target={"_blank"} className="shadow p-2 text-xl text-blue-900 dark:text-gray-100  hover:text-blue-400 dark:hover:text-blue-400">
                             Live demo
                         </a>
                     </div>

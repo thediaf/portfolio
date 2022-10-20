@@ -38,16 +38,16 @@ const Contact = () => {
                 </div>
 
                 <div className="flex justify-center text-3xl">
-                    <a href="https://www.facebook.com/diafra.soumare.98" className="m-3 text-blue-900 dark:text-blue-400">
+                    <a href="https://www.facebook.com/diafra.soumare.98" target={"_blank"} className="m-3 text-blue-900 dark:text-blue-400">
                         <FaFacebookF />
                     </a>
-                    <a href="https://github.com/thediaf" className="m-3 text-blue-900 dark:text-blue-400">
+                    <a href="https://github.com/thediaf" target={"_blank"} className="m-3 text-blue-900 dark:text-blue-400">
                         <FaGithub />
                     </a>
-                    <a href="https://www.linkedin.com/in/diafra-soumar%C3%A9-a53b8518a/" className="m-3 text-blue-900 dark:text-blue-400">
+                    <a href="https://www.linkedin.com/in/diafra-soumar%C3%A9-a53b8518a/" target={"_blank"} className="m-3 text-blue-900 dark:text-blue-400">
                         <FaLinkedinIn />
                     </a>
-                    <a href="https://twitter.com/diafra_soumare" className="m-3 text-blue-900 dark:text-blue-400">
+                    <a href="https://twitter.com/diafra_soumare" target={"_blank"} className="m-3 text-blue-900 dark:text-blue-400">
                         <FaTwitter />
                     </a>
                 </div>
