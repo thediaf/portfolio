@@ -16,7 +16,7 @@ import Project from "./Project";
 const Works = () => {
     return (
         <Element className="works" id="works" name="works">
-            <div className="title dark:text-gray-50 left-title pl-10 text-3xl">
+            <div className="title left-title text-blue-900 dark:text-blue-400 pl-10 text-3xl">
                my works
             </div>
             <div className="mb-3 pb-5 px-7  gap-4">
