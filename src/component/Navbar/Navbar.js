@@ -19,26 +19,36 @@ const NavBar = () => {
                 <div className="flex md:justify-between md:items-center h-24">
                     <div className="w-screen md:w-auto flex items-center justify-between">
                         <div>
-                            <a href="/" className="text-xl font-bold text-gray-900 dark:text-white hover:text-gray-700 
+                            <a href="/" className="text-xl font-bold text-blue-900 dark:text-white hover:text-gray-700 
                                                 md:text-2xl dark:hover:text-gray-300"
                             >
                                 Thediaf
                             </a>
                         </div>
-                        <div className="flex md:hidden">
-                            <button type="button" 
-                                className="text-gray-500 dark:text-gray-200 transition delay-150 duration-500 transform scale-110" 
-                                aria-label="toggle menu" onClick={handleClick}
-                            >
-                                {
-                                    click ? 
-                                        <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}>
-                                            <FaTimes className="text-2xl text-gray-900 dark:text-gray-200" />
-                                        </Rotate>
-                                    : 
-                                        <FaBars className="text-2xl text-gray-900 dark:text-gray-200" />
+
+                        <div className='flex md:hidden'>
+                            <span onClick={() => setTheme(colorTheme)} className="w-10 h-10 md:-mt-2 mx-auto my-3 md:-my-1 rounded-full text-center text-blue-900 dark:bg-gray-900 shadow-bl shadow-lg cursor-pointer dark:text-gray-50 flex justify-center items-center">
+                                { colorTheme === 'light' ?
+                                    <FaSun onClick={closeMobileMenu} />
+                                :
+                                    <FaMoon onClick={closeMobileMenu} />
                                 }
-                            </button>
+                            </span>
+                            <div className="flex">
+                                <button type="button" 
+                                    className="text-gray-500 dark:text-gray-200 transition delay-150 duration-500 transform scale-110" 
+                                    aria-label="toggle menu" onClick={handleClick}
+                                >
+                                    {
+                                        click ? 
+                                            <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}>
+                                                <FaTimes className="text-2xl text-gray-900 dark:text-gray-200" />
+                                            </Rotate>
+                                        : 
+                                            <FaBars className="text-2xl text-gray-900 dark:text-gray-200" />
+                                    }
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -47,21 +57,20 @@ const NavBar = () => {
                     <Rotate delay={click ? 50 : 0} duration={click ? 700 : 0}  triggerOnce>
                     <div className="flex flex-col text-center md:flex-row">
                         <NavItem link="/" title="home" closeMobileMenu={closeMobileMenu} />
-                        <NavItem link="about" title="about" closeMobileMenu={closeMobileMenu} />
-                        <NavItem link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="works" title="works" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="skills" title="skills" closeMobileMenu={closeMobileMenu} />
+                        <NavItem link="about" title="about" closeMobileMenu={closeMobileMenu} />
                         <NavItem link="contact" title="contact" closeMobileMenu={closeMobileMenu} />
-                        <span onClick={() => setTheme(colorTheme)} className="w-10 h-10 md:-mt-2 mx-auto my-3 md:-my-1 rounded-full text-center dark:bg-gray-900 shadow-lg cursor-pointer dark:text-gray-50 flex justify-center items-center">
+                    </div>
+                    <span onClick={() => setTheme(colorTheme)} className="hidden md:flex w-10 h-10 md:-mt-2 mx-auto my-3 md:-my-1 rounded-full text-center text-blue-900 dark:bg-gray-900 shadow-bl shadow-lg cursor-pointer dark:text-gray-50 justify-center items-center">
                             { colorTheme === 'light' ?
                                 <FaSun onClick={closeMobileMenu} />
                             :
                                 <FaMoon onClick={closeMobileMenu} />
-                        }
-
+                            }
                         </span>
-                    </div>
+                        
                     </Rotate>
-                    
                 </div>
             </div>
         </nav>
