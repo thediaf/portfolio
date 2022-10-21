@@ -1,33 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.e82f9579.chunk.css",
-    "main.js": "/static/js/main.be32db0c.chunk.js",
-    "main.js.map": "/static/js/main.be32db0c.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8c7fe252.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8c7fe252.js.map",
-    "static/js/2.d76bb8d7.chunk.js": "/static/js/2.d76bb8d7.chunk.js",
-    "static/js/2.d76bb8d7.chunk.js.map": "/static/js/2.d76bb8d7.chunk.js.map",
-    "static/js/3.da486ad6.chunk.js": "/static/js/3.da486ad6.chunk.js",
-    "static/js/3.da486ad6.chunk.js.map": "/static/js/3.da486ad6.chunk.js.map",
+    "main.css": "/static/css/main.a4fca6ed.css",
+    "main.js": "/static/js/main.e81c5f10.js",
+    "static/js/787.b9ec5bb0.chunk.js": "/static/js/787.b9ec5bb0.chunk.js",
+    "static/media/epcm.png": "/static/media/epcm.5ad7b5784da5ec7fb02c.png",
+    "static/media/mdiforum.png": "/static/media/mdiforum.545eea318e6034525d2b.png",
+    "static/media/PO-UGB.png": "/static/media/PO-UGB.c9d6d9257c765fda0832.png",
+    "static/media/lupin.png": "/static/media/lupin.1f462f5a3614bfe0b783.png",
+    "static/media/profil.jpg": "/static/media/profil.72d8386c1836761abcd3.jpg",
+    "static/media/daaddo.png": "/static/media/daaddo.deaf5c779b49046a081c.png",
+    "static/media/courat.png": "/static/media/courat.dee1a0f279385a95894c.png",
+    "static/media/cridem.png": "/static/media/cridem.0e3251a5d8463cde15ea.png",
+    "static/media/composer.png": "/static/media/composer.24bd0ec984a0bccd1b76.png",
+    "static/media/tailwind.png": "/static/media/tailwind.9548e9050901fe90c968.png",
     "index.html": "/index.html",
-    "static/css/main.e82f9579.chunk.css.map": "/static/css/main.e82f9579.chunk.css.map",
-    "static/js/2.d76bb8d7.chunk.js.LICENSE.txt": "/static/js/2.d76bb8d7.chunk.js.LICENSE.txt",
-    "static/media/PO-UGB.0676f4b1.png": "/static/media/PO-UGB.0676f4b1.png",
-    "static/media/composer.fe14972b.png": "/static/media/composer.fe14972b.png",
-    "static/media/courat.d9a4630b.png": "/static/media/courat.d9a4630b.png",
-    "static/media/cridem.555a2242.png": "/static/media/cridem.555a2242.png",
-    "static/media/daaddo.c67f35b6.png": "/static/media/daaddo.c67f35b6.png",
-    "static/media/epcm.c51a4020.png": "/static/media/epcm.c51a4020.png",
-    "static/media/lupin.1f8815e4.png": "/static/media/lupin.1f8815e4.png",
-    "static/media/mdiforum.871fe328.png": "/static/media/mdiforum.871fe328.png",
-    "static/media/picture.d0738481.jpg": "/static/media/picture.d0738481.jpg",
-    "static/media/profile.e8d782bb.jpg": "/static/media/profile.e8d782bb.jpg",
-    "static/media/tailwind.36b2728b.png": "/static/media/tailwind.36b2728b.png"
+    "main.a4fca6ed.css.map": "/static/css/main.a4fca6ed.css.map",
+    "main.e81c5f10.js.map": "/static/js/main.e81c5f10.js.map",
+    "787.b9ec5bb0.chunk.js.map": "/static/js/787.b9ec5bb0.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.8c7fe252.js",
-    "static/js/2.d76bb8d7.chunk.js",
-    "static/css/main.e82f9579.chunk.css",
-    "static/js/main.be32db0c.chunk.js"
+    "static/css/main.a4fca6ed.css",
+    "static/js/main.e81c5f10.js"
   ]
 }
